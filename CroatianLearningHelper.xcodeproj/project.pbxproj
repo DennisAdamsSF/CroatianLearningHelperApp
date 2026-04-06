@@ -1,0 +1,494 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		048EA9070630A62A3102651E /* QuizSessionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 240532B197E20A0CC1EC17E3 /* QuizSessionView.swift */; };
+		12B719C31F7B5C9BBA247264 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78F285AD379DEA9BBC07DB19 /* HomeView.swift */; };
+		1A9046E37B6CC983A4937756 /* ProgressOverviewView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0642A794FBA5F4A627EE8D17 /* ProgressOverviewView.swift */; };
+		30654BECCD0E0A9699C0AE24 /* ProgressRecord.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45A315E90DEBC2AE361DE745 /* ProgressRecord.swift */; };
+		4297B4305AA11900632FC4E8 /* FillInBlankView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC462370619A10B7B3B011C1 /* FillInBlankView.swift */; };
+		4AA6BBE206215702C805AA53 /* ProgressRing.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17C5F434FC17AE3D9559E9FA /* ProgressRing.swift */; };
+		4BA0DF8BFB477309515FB89F /* ConjugationDrillView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94458119CC057AE3335113D7 /* ConjugationDrillView.swift */; };
+		4F552955999B2D1AFFC54257 /* Question.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13F49777526DA41DD31E4C8D /* Question.swift */; };
+		56518097CB16F4D1E1274362 /* ChapterProgress.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6AA7E7611840A49561E830BA /* ChapterProgress.swift */; };
+		6A3AF10834F7D254B56D66A2 /* MultipleChoiceView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E54DF11FA56BCABD883FB5F1 /* MultipleChoiceView.swift */; };
+		750A6C727C10C1C46851F3BC /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E27D8E7A21DB71CF9CC0FF31 /* ContentView.swift */; };
+		76765037F626F3EDC0D916A9 /* ch01.json in Resources */ = {isa = PBXBuildFile; fileRef = 15998B35156189E2925644FA /* ch01.json */; };
+		98587FC0E25B6231081DD24F /* QuizSessionRecord.swift in Sources */ = {isa = PBXBuildFile; fileRef = 495DB3C2B190A1DC37D7314D /* QuizSessionRecord.swift */; };
+		B522982368CF1EDABEAE5FAF /* QuestionSelector.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CC2D1D39426F84A8E93AECA /* QuestionSelector.swift */; };
+		B89AEF2E177A26AC4DD1A4F0 /* Chapter.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC2DB333064CD146E4A6A7F3 /* Chapter.swift */; };
+		BF7A9D266DEAA4B2A9CC05E1 /* AnswerChecker.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA0FD729989A7AEFED35C3FB /* AnswerChecker.swift */; };
+		C365DBD6F90C9A106E863961 /* SpellCheckTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12543D76BBB6AC1A7FD9DCFE /* SpellCheckTextField.swift */; };
+		CA4FA797612384456F93A241 /* ChapterListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6F1FE724D079C3DAA8353EA /* ChapterListView.swift */; };
+		D25584FA3997270E5707E635 /* TranslationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B2DCF4DC5AA9764881451E7 /* TranslationView.swift */; };
+		D6FEA0A66B752613C9A9D178 /* QuizResultView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABBC55212B19F3086AEB522D /* QuizResultView.swift */; };
+		DC670820B5F09A3056C22117 /* ChapterDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53654D6FA47035A182BAC849 /* ChapterDetailView.swift */; };
+		E89E149DAB1DF945720E5852 /* CroatianLearningHelperApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD598DD106C6DE2F24DF2439 /* CroatianLearningHelperApp.swift */; };
+		E90360574C5D61C8321050A6 /* QuestionBank.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81B31B532DCE569F87B3C2BF /* QuestionBank.swift */; };
+		EC31DD7954A61F64FB60E7DE /* AnswerFeedbackView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55EEECBA0DD259A6AE9ACA8C /* AnswerFeedbackView.swift */; };
+		EE1BD037A9FC73B18239561D /* QuizEngine.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71EAFED9E0296EB8CD7EC5A5 /* QuizEngine.swift */; };
+		F4061F282378E37BE0F93216 /* CroatianSpellChecker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3926CF4C071D2AD33A992597 /* CroatianSpellChecker.swift */; };
+		FBD82DA93F2083EF004B42BE /* chapters.json in Resources */ = {isa = PBXBuildFile; fileRef = 783B23BFE04D4D0EAF5E56BB /* chapters.json */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		0642A794FBA5F4A627EE8D17 /* ProgressOverviewView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProgressOverviewView.swift; sourceTree = "<group>"; };
+		12543D76BBB6AC1A7FD9DCFE /* SpellCheckTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpellCheckTextField.swift; sourceTree = "<group>"; };
+		13F49777526DA41DD31E4C8D /* Question.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Question.swift; sourceTree = "<group>"; };
+		15998B35156189E2925644FA /* ch01.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = ch01.json; sourceTree = "<group>"; };
+		17C5F434FC17AE3D9559E9FA /* ProgressRing.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProgressRing.swift; sourceTree = "<group>"; };
+		240532B197E20A0CC1EC17E3 /* QuizSessionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuizSessionView.swift; sourceTree = "<group>"; };
+		3926CF4C071D2AD33A992597 /* CroatianSpellChecker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CroatianSpellChecker.swift; sourceTree = "<group>"; };
+		3B2DCF4DC5AA9764881451E7 /* TranslationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TranslationView.swift; sourceTree = "<group>"; };
+		448D347D6C5EB9EC8E4EC8EF /* CroatianLearningHelper.app */ = {isa = PBXFileReference; includeInIndex = 0; lastKnownFileType = wrapper.application; path = CroatianLearningHelper.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		45A315E90DEBC2AE361DE745 /* ProgressRecord.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProgressRecord.swift; sourceTree = "<group>"; };
+		495DB3C2B190A1DC37D7314D /* QuizSessionRecord.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuizSessionRecord.swift; sourceTree = "<group>"; };
+		53654D6FA47035A182BAC849 /* ChapterDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChapterDetailView.swift; sourceTree = "<group>"; };
+		55EEECBA0DD259A6AE9ACA8C /* AnswerFeedbackView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnswerFeedbackView.swift; sourceTree = "<group>"; };
+		56D27C18186D6EEE362EE899 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		6AA7E7611840A49561E830BA /* ChapterProgress.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChapterProgress.swift; sourceTree = "<group>"; };
+		71EAFED9E0296EB8CD7EC5A5 /* QuizEngine.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuizEngine.swift; sourceTree = "<group>"; };
+		783B23BFE04D4D0EAF5E56BB /* chapters.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = chapters.json; sourceTree = "<group>"; };
+		78F285AD379DEA9BBC07DB19 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		81B31B532DCE569F87B3C2BF /* QuestionBank.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuestionBank.swift; sourceTree = "<group>"; };
+		8CC2D1D39426F84A8E93AECA /* QuestionSelector.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuestionSelector.swift; sourceTree = "<group>"; };
+		94458119CC057AE3335113D7 /* ConjugationDrillView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConjugationDrillView.swift; sourceTree = "<group>"; };
+		ABBC55212B19F3086AEB522D /* QuizResultView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuizResultView.swift; sourceTree = "<group>"; };
+		AC2DB333064CD146E4A6A7F3 /* Chapter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Chapter.swift; sourceTree = "<group>"; };
+		C6F1FE724D079C3DAA8353EA /* ChapterListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChapterListView.swift; sourceTree = "<group>"; };
+		DC462370619A10B7B3B011C1 /* FillInBlankView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FillInBlankView.swift; sourceTree = "<group>"; };
+		E27D8E7A21DB71CF9CC0FF31 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		E54DF11FA56BCABD883FB5F1 /* MultipleChoiceView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MultipleChoiceView.swift; sourceTree = "<group>"; };
+		FA0FD729989A7AEFED35C3FB /* AnswerChecker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnswerChecker.swift; sourceTree = "<group>"; };
+		FD598DD106C6DE2F24DF2439 /* CroatianLearningHelperApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CroatianLearningHelperApp.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXGroup section */
+		11F16183A790F35D6EDBC5A5 /* questions */ = {
+			isa = PBXGroup;
+			children = (
+				15998B35156189E2925644FA /* ch01.json */,
+			);
+			path = questions;
+			sourceTree = "<group>";
+		};
+		23E01E78EA20B668A10E0FA4 /* Quiz */ = {
+			isa = PBXGroup;
+			children = (
+				94458119CC057AE3335113D7 /* ConjugationDrillView.swift */,
+				DC462370619A10B7B3B011C1 /* FillInBlankView.swift */,
+				E54DF11FA56BCABD883FB5F1 /* MultipleChoiceView.swift */,
+				ABBC55212B19F3086AEB522D /* QuizResultView.swift */,
+				240532B197E20A0CC1EC17E3 /* QuizSessionView.swift */,
+				3B2DCF4DC5AA9764881451E7 /* TranslationView.swift */,
+			);
+			path = Quiz;
+			sourceTree = "<group>";
+		};
+		287056CE20BC38D0840FD65E /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				55EEECBA0DD259A6AE9ACA8C /* AnswerFeedbackView.swift */,
+				17C5F434FC17AE3D9559E9FA /* ProgressRing.swift */,
+				12543D76BBB6AC1A7FD9DCFE /* SpellCheckTextField.swift */,
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
+		2CD2B978116B20146719F5E5 /* Chapters */ = {
+			isa = PBXGroup;
+			children = (
+				53654D6FA47035A182BAC849 /* ChapterDetailView.swift */,
+				C6F1FE724D079C3DAA8353EA /* ChapterListView.swift */,
+			);
+			path = Chapters;
+			sourceTree = "<group>";
+		};
+		33580A41BA1744B0DD5963EB /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				2CD2B978116B20146719F5E5 /* Chapters */,
+				287056CE20BC38D0840FD65E /* Components */,
+				880AE549CFED3D9CABFACD79 /* Home */,
+				FF3A57D774E0E7C80FB9B4BA /* Progress */,
+				23E01E78EA20B668A10E0FA4 /* Quiz */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		37582F9FEF83BD6A582EE5B5 /* CroatianLearningHelper */ = {
+			isa = PBXGroup;
+			children = (
+				903E2F258799BAF111CA02D5 /* App */,
+				52CD69A9565EA24C8B87E44F /* Models */,
+				E2D768E35112E3F3A8D191BC /* Resources */,
+				C6035387F67123D2CFAEC368 /* Services */,
+				33580A41BA1744B0DD5963EB /* Views */,
+			);
+			path = CroatianLearningHelper;
+			sourceTree = "<group>";
+		};
+		52CD69A9565EA24C8B87E44F /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				AC2DB333064CD146E4A6A7F3 /* Chapter.swift */,
+				6AA7E7611840A49561E830BA /* ChapterProgress.swift */,
+				45A315E90DEBC2AE361DE745 /* ProgressRecord.swift */,
+				13F49777526DA41DD31E4C8D /* Question.swift */,
+				81B31B532DCE569F87B3C2BF /* QuestionBank.swift */,
+				495DB3C2B190A1DC37D7314D /* QuizSessionRecord.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		6287E4A924FA931630B4B9C9 = {
+			isa = PBXGroup;
+			children = (
+				37582F9FEF83BD6A582EE5B5 /* CroatianLearningHelper */,
+				B10E4F8D2F3A5568EB10EC54 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		880AE549CFED3D9CABFACD79 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				78F285AD379DEA9BBC07DB19 /* HomeView.swift */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		903E2F258799BAF111CA02D5 /* App */ = {
+			isa = PBXGroup;
+			children = (
+				E27D8E7A21DB71CF9CC0FF31 /* ContentView.swift */,
+				FD598DD106C6DE2F24DF2439 /* CroatianLearningHelperApp.swift */,
+				56D27C18186D6EEE362EE899 /* Info.plist */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		B10E4F8D2F3A5568EB10EC54 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				448D347D6C5EB9EC8E4EC8EF /* CroatianLearningHelper.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C6035387F67123D2CFAEC368 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				FA0FD729989A7AEFED35C3FB /* AnswerChecker.swift */,
+				3926CF4C071D2AD33A992597 /* CroatianSpellChecker.swift */,
+				8CC2D1D39426F84A8E93AECA /* QuestionSelector.swift */,
+				71EAFED9E0296EB8CD7EC5A5 /* QuizEngine.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		E2D768E35112E3F3A8D191BC /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				783B23BFE04D4D0EAF5E56BB /* chapters.json */,
+				11F16183A790F35D6EDBC5A5 /* questions */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		FF3A57D774E0E7C80FB9B4BA /* Progress */ = {
+			isa = PBXGroup;
+			children = (
+				0642A794FBA5F4A627EE8D17 /* ProgressOverviewView.swift */,
+			);
+			path = Progress;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		9641ED604CD3928E72035F98 /* CroatianLearningHelper */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C442DC2033C6CD073FE25DB3 /* Build configuration list for PBXNativeTarget "CroatianLearningHelper" */;
+			buildPhases = (
+				F7CB9511B7BFB3A497BBEE90 /* Sources */,
+				E4FD47F9AC85263ECB225612 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CroatianLearningHelper;
+			packageProductDependencies = (
+			);
+			productName = CroatianLearningHelper;
+			productReference = 448D347D6C5EB9EC8E4EC8EF /* CroatianLearningHelper.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		80B47CD3E27B701E41D8EDB0 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = YES;
+				LastUpgradeCheck = 1500;
+				TargetAttributes = {
+					9641ED604CD3928E72035F98 = {
+						DevelopmentTeam = "";
+					};
+				};
+			};
+			buildConfigurationList = 8362A46C14FF7BFF8E48D1ED /* Build configuration list for PBXProject "CroatianLearningHelper" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				Base,
+				en,
+			);
+			mainGroup = 6287E4A924FA931630B4B9C9;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = B10E4F8D2F3A5568EB10EC54 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9641ED604CD3928E72035F98 /* CroatianLearningHelper */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E4FD47F9AC85263ECB225612 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				76765037F626F3EDC0D916A9 /* ch01.json in Resources */,
+				FBD82DA93F2083EF004B42BE /* chapters.json in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F7CB9511B7BFB3A497BBEE90 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BF7A9D266DEAA4B2A9CC05E1 /* AnswerChecker.swift in Sources */,
+				EC31DD7954A61F64FB60E7DE /* AnswerFeedbackView.swift in Sources */,
+				B89AEF2E177A26AC4DD1A4F0 /* Chapter.swift in Sources */,
+				DC670820B5F09A3056C22117 /* ChapterDetailView.swift in Sources */,
+				CA4FA797612384456F93A241 /* ChapterListView.swift in Sources */,
+				56518097CB16F4D1E1274362 /* ChapterProgress.swift in Sources */,
+				4BA0DF8BFB477309515FB89F /* ConjugationDrillView.swift in Sources */,
+				750A6C727C10C1C46851F3BC /* ContentView.swift in Sources */,
+				E89E149DAB1DF945720E5852 /* CroatianLearningHelperApp.swift in Sources */,
+				F4061F282378E37BE0F93216 /* CroatianSpellChecker.swift in Sources */,
+				4297B4305AA11900632FC4E8 /* FillInBlankView.swift in Sources */,
+				12B719C31F7B5C9BBA247264 /* HomeView.swift in Sources */,
+				6A3AF10834F7D254B56D66A2 /* MultipleChoiceView.swift in Sources */,
+				1A9046E37B6CC983A4937756 /* ProgressOverviewView.swift in Sources */,
+				30654BECCD0E0A9699C0AE24 /* ProgressRecord.swift in Sources */,
+				4AA6BBE206215702C805AA53 /* ProgressRing.swift in Sources */,
+				4F552955999B2D1AFFC54257 /* Question.swift in Sources */,
+				E90360574C5D61C8321050A6 /* QuestionBank.swift in Sources */,
+				B522982368CF1EDABEAE5FAF /* QuestionSelector.swift in Sources */,
+				EE1BD037A9FC73B18239561D /* QuizEngine.swift in Sources */,
+				D6FEA0A66B752613C9A9D178 /* QuizResultView.swift in Sources */,
+				98587FC0E25B6231081DD24F /* QuizSessionRecord.swift in Sources */,
+				048EA9070630A62A3102651E /* QuizSessionView.swift in Sources */,
+				C365DBD6F90C9A106E863961 /* SpellCheckTextField.swift in Sources */,
+				D25584FA3997270E5707E635 /* TranslationView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		00D1BE64F27EB145A9D45273 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEVELOPMENT_TEAM = "";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.9;
+			};
+			name = Release;
+		};
+		2A736FF7B5F7F0701242EEE4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEVELOPMENT_TEAM = "";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"$(inherited)",
+					"DEBUG=1",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.9;
+			};
+			name = Debug;
+		};
+		66E685EB7A5CEBA5028A01A9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				INFOPLIST_FILE = CroatianLearningHelper/App/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.dennis.croatianlearning;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		9A9EEF16B81F8C90569D43F9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				INFOPLIST_FILE = CroatianLearningHelper/App/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.dennis.croatianlearning;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8362A46C14FF7BFF8E48D1ED /* Build configuration list for PBXProject "CroatianLearningHelper" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2A736FF7B5F7F0701242EEE4 /* Debug */,
+				00D1BE64F27EB145A9D45273 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		C442DC2033C6CD073FE25DB3 /* Build configuration list for PBXNativeTarget "CroatianLearningHelper" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9A9EEF16B81F8C90569D43F9 /* Debug */,
+				66E685EB7A5CEBA5028A01A9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 80B47CD3E27B701E41D8EDB0 /* Project object */;
+}

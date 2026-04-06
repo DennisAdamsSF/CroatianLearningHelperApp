@@ -1,0 +1,55 @@
+{
+  "version": 1,
+  "chapters": [
+    {
+      "id": "ch01",
+      "number": 1,
+      "title": "Tko ste vi?",
+      "titleEnglish": "Who are you?",
+      "level": "a1",
+      "grammarTopics": ["present tense of biti", "nominativ", "personal pronouns", "word order"],
+      "vocabThemes": ["greetings", "introductions", "nationalities", "professions"],
+      "questionCount": 12
+    },
+    {
+      "id": "ch02",
+      "number": 2,
+      "title": "Što radite?",
+      "titleEnglish": "What do you do?",
+      "level": "a1",
+      "grammarTopics": ["present tense -am conjugation", "present tense -im conjugation", "akuzativ basics"],
+      "vocabThemes": ["daily activities", "professions", "hobbies"],
+      "questionCount": 0
+    },
+    {
+      "id": "ch03",
+      "number": 3,
+      "title": "Gdje stanujete?",
+      "titleEnglish": "Where do you live?",
+      "level": "a1",
+      "grammarTopics": ["lokativ", "prepositions u and na", "adjective agreement"],
+      "vocabThemes": ["city", "housing", "directions", "countries"],
+      "questionCount": 0
+    },
+    {
+      "id": "ch04",
+      "number": 4,
+      "title": "Koliko imate godina?",
+      "titleEnglish": "How old are you?",
+      "level": "a1",
+      "grammarTopics": ["numbers", "genitiv singular", "imati conjugation"],
+      "vocabThemes": ["numbers", "age", "family members"],
+      "questionCount": 0
+    },
+    {
+      "id": "ch05",
+      "number": 5,
+      "title": "Što želite?",
+      "titleEnglish": "What do you want?",
+      "level": "a2",
+      "grammarTopics": ["modal verbs", "akuzativ", "word order with clitics"],
+      "vocabThemes": ["shopping", "food", "restaurants"],
+      "questionCount": 0
+    }
+  ]
+}
