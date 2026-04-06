@@ -21,6 +21,7 @@
 		4C22A7759CD092382E890F89 /* ch04.json in Resources */ = {isa = PBXBuildFile; fileRef = 08433853152E7997C4AC7E0B /* ch04.json */; };
 		4F552955999B2D1AFFC54257 /* Question.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13F49777526DA41DD31E4C8D /* Question.swift */; };
 		56518097CB16F4D1E1274362 /* ChapterProgress.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6AA7E7611840A49561E830BA /* ChapterProgress.swift */; };
+		5B1E76842095BB771034F217 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 441BED8035CC41B39D4584DA /* Assets.xcassets */; };
 		6A3AF10834F7D254B56D66A2 /* MultipleChoiceView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E54DF11FA56BCABD883FB5F1 /* MultipleChoiceView.swift */; };
 		750A6C727C10C1C46851F3BC /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E27D8E7A21DB71CF9CC0FF31 /* ContentView.swift */; };
 		76765037F626F3EDC0D916A9 /* ch01.json in Resources */ = {isa = PBXBuildFile; fileRef = 15998B35156189E2925644FA /* ch01.json */; };
@@ -53,7 +54,8 @@
 		240532B197E20A0CC1EC17E3 /* QuizSessionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuizSessionView.swift; sourceTree = "<group>"; };
 		3926CF4C071D2AD33A992597 /* CroatianSpellChecker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CroatianSpellChecker.swift; sourceTree = "<group>"; };
 		3B2DCF4DC5AA9764881451E7 /* TranslationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TranslationView.swift; sourceTree = "<group>"; };
-		448D347D6C5EB9EC8E4EC8EF /* CroatianLearningHelper.app */ = {isa = PBXFileReference; includeInIndex = 0; lastKnownFileType = wrapper.application; path = CroatianLearningHelper.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		441BED8035CC41B39D4584DA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		448D347D6C5EB9EC8E4EC8EF /* CroatianLearningHelper.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CroatianLearningHelper.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		45A315E90DEBC2AE361DE745 /* ProgressRecord.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProgressRecord.swift; sourceTree = "<group>"; };
 		495DB3C2B190A1DC37D7314D /* QuizSessionRecord.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuizSessionRecord.swift; sourceTree = "<group>"; };
 		53654D6FA47035A182BAC849 /* ChapterDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChapterDetailView.swift; sourceTree = "<group>"; };
@@ -212,6 +214,7 @@
 		E2D768E35112E3F3A8D191BC /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				441BED8035CC41B39D4584DA /* Assets.xcassets */,
 				783B23BFE04D4D0EAF5E56BB /* chapters.json */,
 				11F16183A790F35D6EDBC5A5 /* questions */,
 			);
@@ -255,11 +258,6 @@
 			attributes = {
 				BuildIndependentTargetsInParallel = YES;
 				LastUpgradeCheck = 1500;
-				TargetAttributes = {
-					9641ED604CD3928E72035F98 = {
-						DevelopmentTeam = "";
-					};
-				};
 			};
 			buildConfigurationList = 8362A46C14FF7BFF8E48D1ED /* Build configuration list for PBXProject "CroatianLearningHelper" */;
 			developmentRegion = en;
@@ -285,6 +283,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5B1E76842095BB771034F217 /* Assets.xcassets in Resources */,
 				76765037F626F3EDC0D916A9 /* ch01.json in Resources */,
 				454103442F322C74F4B924D8 /* ch02.json in Resources */,
 				9DCA3A30299C28B7084C239E /* ch03.json in Resources */,
@@ -461,6 +460,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 4FG84V3G86;
 				INFOPLIST_FILE = CroatianLearningHelper/App/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -479,6 +479,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 4FG84V3G86;
 				INFOPLIST_FILE = CroatianLearningHelper/App/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
