@@ -11,7 +11,8 @@ class QuizEngine {
     var isShowingFeedback: Bool = false
     var lastResult: AnswerResult?
     var isSessionComplete: Bool = false
-    var sessionStartTime: Date = Date()
+    var finalDurationSeconds: Int = 0
+    private var sessionStartTime: Date = Date()
 
     let chapterID: String
     let answerChecker = AnswerChecker()
@@ -40,7 +41,10 @@ class QuizEngine {
     }
 
     var sessionDuration: Int {
-        Int(Date().timeIntervalSince(sessionStartTime))
+        if isSessionComplete {
+            return finalDurationSeconds
+        }
+        return Int(Date().timeIntervalSince(sessionStartTime))
     }
 
     init(chapterID: String, modelContext: ModelContext) {
@@ -56,6 +60,7 @@ class QuizEngine {
         conjugationAnswers = [:]
         isShowingFeedback = false
         isSessionComplete = false
+        finalDurationSeconds = 0
         sessionStartTime = Date()
     }
 
@@ -87,6 +92,12 @@ class QuizEngine {
         isShowingFeedback = true
     }
 
+    func cancelSession() {
+        finalDurationSeconds = Int(Date().timeIntervalSince(sessionStartTime))
+        isSessionComplete = true
+        questions = []
+    }
+
     func nextQuestion() {
         isShowingFeedback = false
         lastResult = nil
@@ -98,6 +109,7 @@ class QuizEngine {
     }
 
     private func completeSession() {
+        finalDurationSeconds = Int(Date().timeIntervalSince(sessionStartTime))
         isSessionComplete = true
 
         let totalCorrect = correctCount

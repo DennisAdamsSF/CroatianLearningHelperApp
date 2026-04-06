@@ -75,12 +75,20 @@ struct QuizSessionView: View {
         .navigationBarTitleDisplayMode(.inline)
         .toolbar {
             ToolbarItem(placement: .topBarTrailing) {
-                Button("End") { dismiss() }
+                Button("End") {
+                    engine.cancelSession()
+                    dismiss()
+                }
             }
         }
         .onAppear {
             engine = QuizEngine(chapterID: chapterID, modelContext: modelContext)
             engine.startSession()
+        }
+        .onDisappear {
+            if !engine.isSessionComplete {
+                engine.cancelSession()
+            }
         }
     }
 }

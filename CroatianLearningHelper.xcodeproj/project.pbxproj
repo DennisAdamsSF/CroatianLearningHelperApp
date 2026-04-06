@@ -7,19 +7,25 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		00DCFB185FAB36BAD005E9DF /* ch07.json in Resources */ = {isa = PBXBuildFile; fileRef = 6933F57C691F7E9A30B38F19 /* ch07.json */; };
 		048EA9070630A62A3102651E /* QuizSessionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 240532B197E20A0CC1EC17E3 /* QuizSessionView.swift */; };
+		10D2C4BD626A0D9BDFD79407 /* ch06.json in Resources */ = {isa = PBXBuildFile; fileRef = 9DB006FFAF20CEE27EA21192 /* ch06.json */; };
 		12B719C31F7B5C9BBA247264 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78F285AD379DEA9BBC07DB19 /* HomeView.swift */; };
 		1A9046E37B6CC983A4937756 /* ProgressOverviewView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0642A794FBA5F4A627EE8D17 /* ProgressOverviewView.swift */; };
+		3008EE12CEC654FA03AC0898 /* ch05.json in Resources */ = {isa = PBXBuildFile; fileRef = A0C77248C0A865C5ABA14E22 /* ch05.json */; };
 		30654BECCD0E0A9699C0AE24 /* ProgressRecord.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45A315E90DEBC2AE361DE745 /* ProgressRecord.swift */; };
 		4297B4305AA11900632FC4E8 /* FillInBlankView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC462370619A10B7B3B011C1 /* FillInBlankView.swift */; };
+		454103442F322C74F4B924D8 /* ch02.json in Resources */ = {isa = PBXBuildFile; fileRef = 04F23A51C22A481DCBBCAE9C /* ch02.json */; };
 		4AA6BBE206215702C805AA53 /* ProgressRing.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17C5F434FC17AE3D9559E9FA /* ProgressRing.swift */; };
 		4BA0DF8BFB477309515FB89F /* ConjugationDrillView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94458119CC057AE3335113D7 /* ConjugationDrillView.swift */; };
+		4C22A7759CD092382E890F89 /* ch04.json in Resources */ = {isa = PBXBuildFile; fileRef = 08433853152E7997C4AC7E0B /* ch04.json */; };
 		4F552955999B2D1AFFC54257 /* Question.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13F49777526DA41DD31E4C8D /* Question.swift */; };
 		56518097CB16F4D1E1274362 /* ChapterProgress.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6AA7E7611840A49561E830BA /* ChapterProgress.swift */; };
 		6A3AF10834F7D254B56D66A2 /* MultipleChoiceView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E54DF11FA56BCABD883FB5F1 /* MultipleChoiceView.swift */; };
 		750A6C727C10C1C46851F3BC /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E27D8E7A21DB71CF9CC0FF31 /* ContentView.swift */; };
 		76765037F626F3EDC0D916A9 /* ch01.json in Resources */ = {isa = PBXBuildFile; fileRef = 15998B35156189E2925644FA /* ch01.json */; };
 		98587FC0E25B6231081DD24F /* QuizSessionRecord.swift in Sources */ = {isa = PBXBuildFile; fileRef = 495DB3C2B190A1DC37D7314D /* QuizSessionRecord.swift */; };
+		9DCA3A30299C28B7084C239E /* ch03.json in Resources */ = {isa = PBXBuildFile; fileRef = D52ED688C08839217BBCE36B /* ch03.json */; };
 		B522982368CF1EDABEAE5FAF /* QuestionSelector.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CC2D1D39426F84A8E93AECA /* QuestionSelector.swift */; };
 		B89AEF2E177A26AC4DD1A4F0 /* Chapter.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC2DB333064CD146E4A6A7F3 /* Chapter.swift */; };
 		BF7A9D266DEAA4B2A9CC05E1 /* AnswerChecker.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA0FD729989A7AEFED35C3FB /* AnswerChecker.swift */; };
@@ -37,7 +43,9 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		04F23A51C22A481DCBBCAE9C /* ch02.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = ch02.json; sourceTree = "<group>"; };
 		0642A794FBA5F4A627EE8D17 /* ProgressOverviewView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProgressOverviewView.swift; sourceTree = "<group>"; };
+		08433853152E7997C4AC7E0B /* ch04.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = ch04.json; sourceTree = "<group>"; };
 		12543D76BBB6AC1A7FD9DCFE /* SpellCheckTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpellCheckTextField.swift; sourceTree = "<group>"; };
 		13F49777526DA41DD31E4C8D /* Question.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Question.swift; sourceTree = "<group>"; };
 		15998B35156189E2925644FA /* ch01.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = ch01.json; sourceTree = "<group>"; };
@@ -51,6 +59,7 @@
 		53654D6FA47035A182BAC849 /* ChapterDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChapterDetailView.swift; sourceTree = "<group>"; };
 		55EEECBA0DD259A6AE9ACA8C /* AnswerFeedbackView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnswerFeedbackView.swift; sourceTree = "<group>"; };
 		56D27C18186D6EEE362EE899 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		6933F57C691F7E9A30B38F19 /* ch07.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = ch07.json; sourceTree = "<group>"; };
 		6AA7E7611840A49561E830BA /* ChapterProgress.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChapterProgress.swift; sourceTree = "<group>"; };
 		71EAFED9E0296EB8CD7EC5A5 /* QuizEngine.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuizEngine.swift; sourceTree = "<group>"; };
 		783B23BFE04D4D0EAF5E56BB /* chapters.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = chapters.json; sourceTree = "<group>"; };
@@ -58,9 +67,12 @@
 		81B31B532DCE569F87B3C2BF /* QuestionBank.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuestionBank.swift; sourceTree = "<group>"; };
 		8CC2D1D39426F84A8E93AECA /* QuestionSelector.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuestionSelector.swift; sourceTree = "<group>"; };
 		94458119CC057AE3335113D7 /* ConjugationDrillView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConjugationDrillView.swift; sourceTree = "<group>"; };
+		9DB006FFAF20CEE27EA21192 /* ch06.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = ch06.json; sourceTree = "<group>"; };
+		A0C77248C0A865C5ABA14E22 /* ch05.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = ch05.json; sourceTree = "<group>"; };
 		ABBC55212B19F3086AEB522D /* QuizResultView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuizResultView.swift; sourceTree = "<group>"; };
 		AC2DB333064CD146E4A6A7F3 /* Chapter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Chapter.swift; sourceTree = "<group>"; };
 		C6F1FE724D079C3DAA8353EA /* ChapterListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChapterListView.swift; sourceTree = "<group>"; };
+		D52ED688C08839217BBCE36B /* ch03.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = ch03.json; sourceTree = "<group>"; };
 		DC462370619A10B7B3B011C1 /* FillInBlankView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FillInBlankView.swift; sourceTree = "<group>"; };
 		E27D8E7A21DB71CF9CC0FF31 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		E54DF11FA56BCABD883FB5F1 /* MultipleChoiceView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MultipleChoiceView.swift; sourceTree = "<group>"; };
@@ -73,6 +85,12 @@
 			isa = PBXGroup;
 			children = (
 				15998B35156189E2925644FA /* ch01.json */,
+				04F23A51C22A481DCBBCAE9C /* ch02.json */,
+				D52ED688C08839217BBCE36B /* ch03.json */,
+				08433853152E7997C4AC7E0B /* ch04.json */,
+				A0C77248C0A865C5ABA14E22 /* ch05.json */,
+				9DB006FFAF20CEE27EA21192 /* ch06.json */,
+				6933F57C691F7E9A30B38F19 /* ch07.json */,
 			);
 			path = questions;
 			sourceTree = "<group>";
@@ -268,6 +286,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				76765037F626F3EDC0D916A9 /* ch01.json in Resources */,
+				454103442F322C74F4B924D8 /* ch02.json in Resources */,
+				9DCA3A30299C28B7084C239E /* ch03.json in Resources */,
+				4C22A7759CD092382E890F89 /* ch04.json in Resources */,
+				3008EE12CEC654FA03AC0898 /* ch05.json in Resources */,
+				10D2C4BD626A0D9BDFD79407 /* ch06.json in Resources */,
+				00DCFB185FAB36BAD005E9DF /* ch07.json in Resources */,
 				FBD82DA93F2083EF004B42BE /* chapters.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

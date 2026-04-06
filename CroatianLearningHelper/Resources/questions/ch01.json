@@ -1,6 +1,6 @@
 {
   "chapterID": "ch01",
-  "version": 1,
+  "version": 2,
   "questions": [
     {
       "id": "ch01_mc_001",
@@ -40,6 +40,67 @@
       "vocabTags": ["nationalities"]
     },
     {
+      "id": "ch01_mc_004",
+      "chapterID": "ch01",
+      "type": "multipleChoice",
+      "level": "a1",
+      "prompt": "What does 'Odakle ste?' mean?",
+      "correctAnswer": "Where are you from?",
+      "distractors": ["How are you?", "What is your name?", "Where do you live?"],
+      "explanation": "Odakle = from where, ste = you are (formal). It's the standard way to ask someone's origin.",
+      "grammarTopic": "personal pronouns",
+      "vocabTags": ["introductions"]
+    },
+    {
+      "id": "ch01_mc_005",
+      "chapterID": "ch01",
+      "type": "multipleChoice",
+      "level": "a1",
+      "prompt": "Choose the correct form: 'Ana ___ profesorica.'",
+      "correctAnswer": "je",
+      "distractors": ["sam", "si", "su"],
+      "explanation": "'Je' is the 3rd person singular of 'biti'. Ana je = Ana is.",
+      "grammarTopic": "present tense of biti",
+      "vocabTags": ["professions"]
+    },
+    {
+      "id": "ch01_mc_006",
+      "chapterID": "ch01",
+      "type": "multipleChoice",
+      "level": "a1",
+      "prompt": "How do you say 'goodbye' in Croatian?",
+      "correctAnswer": "Doviđenja!",
+      "distractors": ["Dobro jutro!", "Hvala!", "Molim!"],
+      "explanation": "Doviđenja = goodbye. Hvala = thank you. Molim = please / you're welcome.",
+      "grammarTopic": "word order",
+      "vocabTags": ["greetings"]
+    },
+    {
+      "id": "ch01_mc_007",
+      "chapterID": "ch01",
+      "type": "multipleChoice",
+      "level": "a1",
+      "prompt": "Which sentence means 'We are from Croatia'?",
+      "correctAnswer": "Mi smo iz Hrvatske.",
+      "distractors": ["Mi ste iz Hrvatske.", "Mi su iz Hrvatske.", "Mi sam iz Hrvatske."],
+      "explanation": "'Smo' is the 1st person plural of 'biti'. Mi smo = We are.",
+      "grammarTopic": "present tense of biti",
+      "vocabTags": ["nationalities"]
+    },
+    {
+      "id": "ch01_mc_008",
+      "chapterID": "ch01",
+      "type": "multipleChoice",
+      "level": "a1",
+      "prompt": "'Ti ___ student.' — Choose the correct form of 'biti'.",
+      "correctAnswer": "si",
+      "distractors": ["sam", "je", "smo"],
+      "explanation": "'Si' is the 2nd person singular of 'biti'. Ti si = You are (informal).",
+      "grammarTopic": "present tense of biti",
+      "vocabTags": ["introductions"]
+    },
+
+    {
       "id": "ch01_fb_001",
       "chapterID": "ch01",
       "type": "fillInBlank",
@@ -68,7 +129,7 @@
       "chapterID": "ch01",
       "type": "fillInBlank",
       "level": "a1",
-      "prompt": "Kako se ___? (What is your name? - formal)",
+      "prompt": "Kako se ___? (What is your name? — formal)",
       "correctAnswer": "zovete",
       "acceptableAnswers": ["Zovete"],
       "hint": "This is the formal (Vi) form.",
@@ -76,6 +137,55 @@
       "grammarTopic": "personal pronouns",
       "vocabTags": ["introductions"]
     },
+    {
+      "id": "ch01_fb_004",
+      "chapterID": "ch01",
+      "type": "fillInBlank",
+      "level": "a1",
+      "prompt": "On ___ iz Engleske. (to be, 3rd person singular)",
+      "correctAnswer": "je",
+      "acceptableAnswers": ["Je"],
+      "explanation": "'Je' is the 3rd person singular of 'biti'. On je = He is.",
+      "grammarTopic": "present tense of biti",
+      "vocabTags": ["nationalities"]
+    },
+    {
+      "id": "ch01_fb_005",
+      "chapterID": "ch01",
+      "type": "fillInBlank",
+      "level": "a1",
+      "prompt": "Vi ___ profesori. (to be, 2nd person plural/formal)",
+      "correctAnswer": "ste",
+      "acceptableAnswers": ["Ste"],
+      "explanation": "'Ste' is the 2nd person plural/formal of 'biti'. Vi ste = You are (formal/plural).",
+      "grammarTopic": "present tense of biti",
+      "vocabTags": ["professions"]
+    },
+    {
+      "id": "ch01_fb_006",
+      "chapterID": "ch01",
+      "type": "fillInBlank",
+      "level": "a1",
+      "prompt": "Oni ___ Hrvati. (to be, 3rd person plural)",
+      "correctAnswer": "su",
+      "acceptableAnswers": ["Su"],
+      "explanation": "'Su' is the 3rd person plural of 'biti'. Oni su = They are.",
+      "grammarTopic": "present tense of biti",
+      "vocabTags": ["nationalities"]
+    },
+    {
+      "id": "ch01_fb_007",
+      "chapterID": "ch01",
+      "type": "fillInBlank",
+      "level": "a1",
+      "prompt": "___ mi je. (Nice to meet you.)",
+      "correctAnswer": "Drago",
+      "acceptableAnswers": ["drago"],
+      "explanation": "'Drago mi je' is the standard expression for 'Nice to meet you.' Drago = dear/pleased.",
+      "grammarTopic": "word order",
+      "vocabTags": ["greetings"]
+    },
+
     {
       "id": "ch01_tr_en_001",
       "chapterID": "ch01",
@@ -95,9 +205,57 @@
       "prompt": "Drago mi je.",
       "correctAnswer": "Nice to meet you.",
       "acceptableAnswers": ["Pleased to meet you.", "Nice to meet you", "Glad to meet you."],
-      "explanation": "Drago mi je is a fixed expression meaning 'Nice to meet you' or literally 'It is dear to me'.",
+      "explanation": "'Drago mi je' is a fixed expression meaning 'Nice to meet you' or literally 'It is dear to me'.",
       "vocabTags": ["greetings"]
     },
+    {
+      "id": "ch01_tr_en_003",
+      "chapterID": "ch01",
+      "type": "translationToEnglish",
+      "level": "a1",
+      "prompt": "Ja sam iz Hrvatske.",
+      "correctAnswer": "I am from Croatia.",
+      "acceptableAnswers": ["I'm from Croatia.", "I am from Croatia"],
+      "explanation": "Ja sam = I am. Iz = from. Hrvatske = Croatia (genitive case).",
+      "grammarTopic": "present tense of biti",
+      "vocabTags": ["nationalities"]
+    },
+    {
+      "id": "ch01_tr_en_004",
+      "chapterID": "ch01",
+      "type": "translationToEnglish",
+      "level": "a1",
+      "prompt": "On je učitelj.",
+      "correctAnswer": "He is a teacher.",
+      "acceptableAnswers": ["He's a teacher.", "He is a teacher"],
+      "explanation": "On = he, je = is (3rd person singular of biti), učitelj = teacher (male).",
+      "grammarTopic": "present tense of biti",
+      "vocabTags": ["professions"]
+    },
+    {
+      "id": "ch01_tr_en_005",
+      "chapterID": "ch01",
+      "type": "translationToEnglish",
+      "level": "a1",
+      "prompt": "Dobar dan! Kako ste?",
+      "correctAnswer": "Good day! How are you?",
+      "acceptableAnswers": ["Good afternoon! How are you?", "Hello! How are you?", "Good day! How are you"],
+      "explanation": "Dobar dan = Good day (standard daytime greeting). Kako ste = How are you (formal).",
+      "vocabTags": ["greetings"]
+    },
+    {
+      "id": "ch01_tr_en_006",
+      "chapterID": "ch01",
+      "type": "translationToEnglish",
+      "level": "a1",
+      "prompt": "Mi smo studenti.",
+      "correctAnswer": "We are students.",
+      "acceptableAnswers": ["We're students.", "We are students"],
+      "explanation": "Mi = we, smo = are (1st person plural), studenti = students (masculine plural).",
+      "grammarTopic": "present tense of biti",
+      "vocabTags": ["introductions"]
+    },
+
     {
       "id": "ch01_tr_hr_001",
       "chapterID": "ch01",
@@ -124,6 +282,57 @@
       "vocabTags": ["greetings"]
     },
     {
+      "id": "ch01_tr_hr_003",
+      "chapterID": "ch01",
+      "type": "translationToCroatian",
+      "level": "a1",
+      "prompt": "She is a doctor.",
+      "correctAnswer": "Ona je liječnica.",
+      "acceptableAnswers": ["Ona je doktorica.", "Ona je lijecnica."],
+      "explanation": "Ona = she, je = is. Liječnica = female doctor. Doktorica is also acceptable.",
+      "grammarTopic": "present tense of biti",
+      "vocabTags": ["professions"]
+    },
+    {
+      "id": "ch01_tr_hr_004",
+      "chapterID": "ch01",
+      "type": "translationToCroatian",
+      "level": "a1",
+      "prompt": "Nice to meet you.",
+      "correctAnswer": "Drago mi je.",
+      "acceptableAnswers": ["Drago mi je"],
+      "explanation": "'Drago mi je' is the standard expression. Drago = dear/glad, mi = to me, je = is.",
+      "grammarTopic": "word order",
+      "vocabTags": ["greetings"]
+    },
+    {
+      "id": "ch01_tr_hr_005",
+      "chapterID": "ch01",
+      "type": "translationToCroatian",
+      "level": "a1",
+      "prompt": "They are from England.",
+      "correctAnswer": "Oni su iz Engleske.",
+      "acceptableAnswers": ["Iz Engleske su.", "One su iz Engleske."],
+      "hint": "'From' uses 'iz' + genitive case.",
+      "explanation": "Oni = they (masc), su = are (3rd plural). Engleska → Engleske in genitive.",
+      "grammarTopic": "present tense of biti",
+      "vocabTags": ["nationalities"]
+    },
+    {
+      "id": "ch01_tr_hr_006",
+      "chapterID": "ch01",
+      "type": "translationToCroatian",
+      "level": "a1",
+      "prompt": "What is your name? (informal)",
+      "correctAnswer": "Kako se zoveš?",
+      "acceptableAnswers": ["Kako se zoves?"],
+      "hint": "Use the 'ti' form for informal.",
+      "explanation": "Zoveš is the 2nd person singular (informal) of 'zvati se'. Compare with formal: zovete.",
+      "grammarTopic": "personal pronouns",
+      "vocabTags": ["introductions"]
+    },
+
+    {
       "id": "ch01_conj_001",
       "chapterID": "ch01",
       "type": "conjugation",
@@ -149,6 +358,48 @@
       "exampleSentence": "Kako se zoveš? — Zovem se Ana.",
       "exampleTranslation": "What's your name? — My name is Ana.",
       "grammarTopic": "personal pronouns",
+      "vocabTags": ["introductions"]
+    },
+    {
+      "id": "ch01_conj_003",
+      "chapterID": "ch01",
+      "type": "conjugation",
+      "level": "a1",
+      "prompt": "Conjugate 'govoriti' (to speak) in the present tense.",
+      "correctAnswer": "ja govorim, ti govoriš, on/ona/ono govori, mi govorimo, vi govorite, oni/one/ona govore",
+      "hint": "This is a standard -im conjugation verb.",
+      "explanation": "Govoriti follows the regular -im pattern: -im, -iš, -i, -imo, -ite, -e.",
+      "exampleSentence": "Govorite li hrvatski? — Da, govorim malo.",
+      "exampleTranslation": "Do you speak Croatian? — Yes, I speak a little.",
+      "grammarTopic": "present tense of biti",
+      "vocabTags": ["introductions"]
+    },
+    {
+      "id": "ch01_conj_004",
+      "chapterID": "ch01",
+      "type": "conjugation",
+      "level": "a1",
+      "prompt": "Conjugate the negative of 'biti' (not to be) in the present tense.",
+      "correctAnswer": "ja nisam, ti nisi, on/ona/ono nije, mi nismo, vi niste, oni/one/ona nisu",
+      "hint": "The negative forms of 'biti' are a single word each — 'ni' + the regular form.",
+      "explanation": "The negative of biti merges 'ne' with the verb: ne + sam → nisam, ne + si → nisi, etc.",
+      "exampleSentence": "Nisam iz Zagreba, ja sam iz Splita.",
+      "exampleTranslation": "I'm not from Zagreb, I'm from Split.",
+      "grammarTopic": "present tense of biti",
+      "vocabTags": ["introductions"]
+    },
+    {
+      "id": "ch01_conj_005",
+      "chapterID": "ch01",
+      "type": "conjugation",
+      "level": "a1",
+      "prompt": "Conjugate 'imati' (to have) in the present tense.",
+      "correctAnswer": "ja imam, ti imaš, on/ona/ono ima, mi imamo, vi imate, oni/one/ona imaju",
+      "hint": "This is a standard -am conjugation verb.",
+      "explanation": "Imati follows the regular -am pattern: -am, -aš, -a, -amo, -ate, -aju.",
+      "exampleSentence": "Imate li pitanje? — Da, imam jedno pitanje.",
+      "exampleTranslation": "Do you have a question? — Yes, I have one question.",
+      "grammarTopic": "present tense of biti",
       "vocabTags": ["introductions"]
     }
   ]

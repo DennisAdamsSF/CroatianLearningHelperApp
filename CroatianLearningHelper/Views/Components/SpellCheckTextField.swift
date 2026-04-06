@@ -19,7 +19,9 @@ struct SpellCheckTextField: View {
             TextField(placeholder, text: $text, axis: axis)
                 .textFieldStyle(.roundedBorder)
                 .font(.title3)
+                .autocorrectionDisabled()
                 .textInputAutocapitalization(.never)
+                .keyboardType(isCroatian ? .default : .default)
                 .focused($isFocused)
                 .disabled(disabled)
                 .onSubmit { onSubmit?() }

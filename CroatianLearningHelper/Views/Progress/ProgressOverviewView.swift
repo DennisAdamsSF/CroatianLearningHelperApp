@@ -19,8 +19,6 @@ struct ProgressOverviewView: View {
     }
 
     private var weakAreas: [(topic: String, accuracy: Double)] {
-        // Aggregate accuracy by grammar topic from session data
-        // For now, show chapter-level weaknesses
         activeChapterData
             .filter { $0.progress.accuracy < 0.7 }
             .sorted { $0.progress.accuracy < $1.progress.accuracy }
@@ -34,7 +32,7 @@ struct ProgressOverviewView: View {
     var body: some View {
         NavigationStack {
             ScrollView {
-                VStack(spacing: 24) {
+                VStack(spacing: 20) {
                     if activeChapterData.isEmpty {
                         ContentUnavailableView(
                             "No Progress Yet",
@@ -42,78 +40,95 @@ struct ProgressOverviewView: View {
                             description: Text("Complete some quizzes to see your progress here.")
                         )
                     } else {
-                        // Accuracy by chapter chart
-                        VStack(alignment: .leading, spacing: 12) {
-                            Text("Accuracy by Chapter")
-                                .font(.headline)
-
+                        // Accuracy by chapter
+                        chartCard("Accuracy by Chapter") {
                             Chart(activeChapterData, id: \.chapter.id) { item in
                                 BarMark(
                                     x: .value("Chapter", "Ch. \(item.chapter.number)"),
-                                    y: .value("Accuracy", item.progress.accuracy * 100)
+                                    y: .value("Accuracy", item.progress.accuracy * 100),
+                                    width: .fixed(40)
                                 )
                                 .foregroundStyle(item.progress.accuracy >= 0.7 ? .green : .orange)
-                                .cornerRadius(4)
+                                .cornerRadius(6)
+                                .annotation(position: .top, spacing: 4) {
+                                    Text("\(Int(item.progress.accuracy * 100))%")
+                                        .font(.caption2)
+                                        .foregroundStyle(.secondary)
+                                }
                             }
                             .chartYScale(domain: 0...100)
                             .chartYAxis {
-                                AxisMarks(values: [0, 25, 50, 75, 100]) { value in
-                                    AxisGridLine()
+                                AxisMarks(values: [0, 50, 100]) { value in
+                                    AxisGridLine(stroke: StrokeStyle(lineWidth: 0.5, dash: [4]))
                                     AxisValueLabel {
                                         Text("\(value.as(Int.self) ?? 0)%")
+                                            .font(.caption2)
                                     }
                                 }
                             }
-                            .frame(height: 200)
+                            .frame(height: 180)
                         }
-                        .padding()
-                        .background(.gray.opacity(0.05))
-                        .clipShape(RoundedRectangle(cornerRadius: 12))
 
-                        // Sessions over time
+                        // Recent scores over time
                         if sessions.count >= 2 {
-                            VStack(alignment: .leading, spacing: 12) {
-                                Text("Recent Scores")
-                                    .font(.headline)
-
-                                Chart(sessions.prefix(20).reversed()) { session in
+                            chartCard("Recent Scores") {
+                                let recentSessions = Array(sessions.prefix(10).reversed())
+                                Chart(Array(recentSessions.enumerated()), id: \.offset) { index, session in
                                     LineMark(
-                                        x: .value("Date", session.date),
+                                        x: .value("Session", "Quiz \(index + 1)"),
                                         y: .value("Score", session.score * 100)
                                     )
                                     .foregroundStyle(.blue)
+                                    .interpolationMethod(.catmullRom)
                                     PointMark(
-                                        x: .value("Date", session.date),
+                                        x: .value("Session", "Quiz \(index + 1)"),
                                         y: .value("Score", session.score * 100)
                                     )
                                     .foregroundStyle(.blue)
+                                    .annotation(position: .top, spacing: 4) {
+                                        Text("\(Int(session.score * 100))%")
+                                            .font(.caption2)
+                                            .foregroundStyle(.secondary)
+                                    }
                                 }
                                 .chartYScale(domain: 0...100)
-                                .frame(height: 200)
+                                .chartYAxis {
+                                    AxisMarks(values: [0, 50, 100]) { value in
+                                        AxisGridLine(stroke: StrokeStyle(lineWidth: 0.5, dash: [4]))
+                                        AxisValueLabel {
+                                            Text("\(value.as(Int.self) ?? 0)%")
+                                                .font(.caption2)
+                                        }
+                                    }
+                                }
+                                .chartXAxis {
+                                    AxisMarks { _ in
+                                        AxisValueLabel()
+                                            .font(.caption2)
+                                    }
+                                }
+                                .frame(height: 180)
                             }
-                            .padding()
-                            .background(.gray.opacity(0.05))
-                            .clipShape(RoundedRectangle(cornerRadius: 12))
                         }
 
                         // Weak areas
                         if !weakAreas.isEmpty {
-                            VStack(alignment: .leading, spacing: 12) {
-                                Text("Areas to Improve")
+                            VStack(alignment: .leading, spacing: 10) {
+                                Label("Areas to Improve", systemImage: "exclamationmark.triangle.fill")
                                     .font(.headline)
+                                    .foregroundStyle(.orange)
 
                                 ForEach(weakAreas.prefix(5), id: \.topic) { area in
                                     HStack {
-                                        Image(systemName: "exclamationmark.triangle.fill")
-                                            .foregroundStyle(.orange)
-                                            .font(.caption)
                                         Text(area.topic)
-                                            .font(.body)
+                                            .font(.subheadline)
                                         Spacer()
                                         Text("\(Int(area.accuracy * 100))%")
-                                            .font(.callout)
+                                            .font(.subheadline)
+                                            .fontWeight(.semibold)
                                             .foregroundStyle(.orange)
                                     }
+                                    .padding(.vertical, 2)
                                 }
                             }
                             .padding()
@@ -121,35 +136,17 @@ struct ProgressOverviewView: View {
                             .clipShape(RoundedRectangle(cornerRadius: 12))
                         }
 
-                        // Total stats
-                        VStack(alignment: .leading, spacing: 12) {
-                            Text("Totals")
-                                .font(.headline)
+                        // Totals
+                        VStack(spacing: 0) {
+                            let totalAttempts = sessions.reduce(0) { $0 + $1.questionsAsked }
+                            let totalCorrect = sessions.reduce(0) { $0 + $1.questionsCorrect }
 
-                            let totalAttempts = chapterProgress.reduce(0) { $0 + $1.totalAttempts }
-                            let totalCorrect = chapterProgress.reduce(0) { $0 + $1.totalCorrect }
-
-                            HStack {
-                                Text("Questions answered")
-                                Spacer()
-                                Text("\(totalAttempts)")
-                                    .fontWeight(.semibold)
-                            }
-                            HStack {
-                                Text("Correct answers")
-                                Spacer()
-                                Text("\(totalCorrect)")
-                                    .fontWeight(.semibold)
-                                    .foregroundStyle(.green)
-                            }
-                            HStack {
-                                Text("Quiz sessions")
-                                Spacer()
-                                Text("\(sessions.count)")
-                                    .fontWeight(.semibold)
-                            }
+                            totalRow(label: "Questions answered", value: "\(totalAttempts)", color: .primary)
+                            Divider().padding(.horizontal)
+                            totalRow(label: "Correct answers", value: "\(totalCorrect)", color: .green)
+                            Divider().padding(.horizontal)
+                            totalRow(label: "Quiz sessions", value: "\(sessions.count)", color: .primary)
                         }
-                        .padding()
                         .background(.gray.opacity(0.05))
                         .clipShape(RoundedRectangle(cornerRadius: 12))
                     }
@@ -158,5 +155,30 @@ struct ProgressOverviewView: View {
             }
             .navigationTitle("Progress")
         }
+    }
+
+    private func chartCard<Content: View>(_ title: String, @ViewBuilder content: () -> Content) -> some View {
+        VStack(alignment: .leading, spacing: 10) {
+            Text(title)
+                .font(.headline)
+            content()
+        }
+        .padding()
+        .background(.gray.opacity(0.05))
+        .clipShape(RoundedRectangle(cornerRadius: 12))
+    }
+
+    private func totalRow(label: String, value: String, color: Color) -> some View {
+        HStack {
+            Text(label)
+                .font(.subheadline)
+            Spacer()
+            Text(value)
+                .font(.title3)
+                .fontWeight(.semibold)
+                .foregroundStyle(color)
+        }
+        .padding(.horizontal)
+        .padding(.vertical, 12)
     }
 }
