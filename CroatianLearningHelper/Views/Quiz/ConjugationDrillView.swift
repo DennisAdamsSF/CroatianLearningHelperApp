@@ -77,12 +77,17 @@ struct ConjugationDrillView: View {
                         if hasSubmitted {
                             let result = results.first { $0.person == person }
                             VStack(alignment: .leading, spacing: 2) {
-                                Text(answers[person] ?? "")
-                                    .foregroundStyle(result?.isCorrect == true ? .green : .red)
-                                if result?.isCorrect == false {
+                                if result?.isCorrect == true {
                                     Text(result?.expected ?? "")
-                                        .font(.caption)
-                                        .foregroundStyle(.secondary)
+                                        .foregroundStyle(.green)
+                                } else {
+                                    Text(answers[person] ?? "")
+                                        .strikethrough()
+                                        .foregroundStyle(.red)
+                                    Text(result?.expected ?? "")
+                                        .font(.callout)
+                                        .fontWeight(.medium)
+                                        .foregroundStyle(.green)
                                 }
                             }
                             Spacer()

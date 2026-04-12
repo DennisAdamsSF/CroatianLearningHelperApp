@@ -7,9 +7,9 @@
       "title": "Tko ste vi?",
       "titleEnglish": "Who are you?",
       "level": "a1",
-      "grammarTopics": ["present tense of biti", "nominativ", "personal pronouns", "word order"],
-      "vocabThemes": ["greetings", "introductions", "nationalities", "professions"],
-      "questionCount": 33
+      "grammarTopics": ["present tense of biti", "nominativ", "personal pronouns", "word order", "possessive pronouns"],
+      "vocabThemes": ["greetings", "introductions", "nationalities", "professions", "possessives", "everyday objects"],
+      "questionCount": 80
     },
     {
       "id": "ch02",
