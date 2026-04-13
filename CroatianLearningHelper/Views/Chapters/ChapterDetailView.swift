@@ -22,7 +22,7 @@ struct ChapterDetailView: View {
             VStack(spacing: 20) {
                 // Header
                 VStack(spacing: 8) {
-                    Text("Lekcija \(chapter.number)")
+                    Text("Cjelina \(chapter.cjelina)\(chapter.section)")
                         .font(.subheadline)
                         .foregroundStyle(.secondary)
                     Text(chapter.title)
@@ -88,16 +88,29 @@ struct ChapterDetailView: View {
                 .frame(maxWidth: .infinity, alignment: .leading)
 
                 // Start quiz button
-                NavigationLink(destination: QuizSessionView(chapterID: chapter.id)) {
+                if chapter.questionCount > 0 {
+                    NavigationLink(destination: QuizSessionView(chapterID: chapter.id)) {
+                        HStack {
+                            Image(systemName: "play.fill")
+                            Text("Start Quiz")
+                                .fontWeight(.semibold)
+                        }
+                        .frame(maxWidth: .infinity)
+                        .padding()
+                        .background(.blue)
+                        .foregroundStyle(.white)
+                        .clipShape(RoundedRectangle(cornerRadius: 14))
+                    }
+                } else {
                     HStack {
-                        Image(systemName: "play.fill")
-                        Text("Start Quiz")
-                            .fontWeight(.semibold)
+                        Image(systemName: "clock.fill")
+                        Text("Questions coming soon")
+                            .fontWeight(.medium)
                     }
                     .frame(maxWidth: .infinity)
                     .padding()
-                    .background(.blue)
-                    .foregroundStyle(.white)
+                    .background(.gray.opacity(0.1))
+                    .foregroundStyle(.secondary)
                     .clipShape(RoundedRectangle(cornerRadius: 14))
                 }
 

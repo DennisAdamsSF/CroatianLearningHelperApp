@@ -50,7 +50,7 @@ struct HomeView: View {
                     // Quick stats
                     HStack(spacing: 20) {
                         statCard(value: "\(totalSessions)", label: "Sessions", icon: "flame.fill", color: .orange)
-                        statCard(value: "\(chapterProgress.filter { $0.totalAttempts > 0 }.count)", label: "Chapters", icon: "book.fill", color: .blue)
+                        statCard(value: "\(chapterProgress.filter { $0.totalAttempts > 0 }.count)", label: "Sections", icon: "book.fill", color: .blue)
                         statCard(value: "\(Int(overallAccuracy * 100))%", label: "Accuracy", icon: "target", color: .green)
                     }
                     .padding(.horizontal)
@@ -66,7 +66,7 @@ struct HomeView: View {
                             NavigationLink(destination: QuizSessionView(chapterID: weakest.chapterID)) {
                                 HStack {
                                     VStack(alignment: .leading) {
-                                        Text("Chapter \(chapter.number)")
+                                        Text("Cjelina \(chapter.displayLabel)")
                                             .font(.headline)
                                         Text(chapter.title)
                                             .font(.subheadline)
@@ -109,8 +109,13 @@ struct HomeView: View {
                             ForEach(recentSessions.prefix(5)) { session in
                                 HStack {
                                     VStack(alignment: .leading) {
-                                        Text("Chapter: \(session.chapterID)")
-                                            .font(.body)
+                                        if let ch = QuestionBank.shared.chapter(for: session.chapterID) {
+                                            Text("\(ch.displayLabel): \(ch.title)")
+                                                .font(.body)
+                                        } else {
+                                            Text(session.chapterID)
+                                                .font(.body)
+                                        }
                                         Text(session.date, style: .relative)
                                             .font(.caption)
                                             .foregroundStyle(.secondary)

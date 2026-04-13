@@ -1,75 +1,212 @@
 {
-  "version": 2,
+  "version": 3,
   "chapters": [
     {
-      "id": "ch01",
-      "number": 1,
-      "title": "Tko ste vi?",
-      "titleEnglish": "Who are you?",
+      "id": "ch01a",
+      "cjelina": 1,
+      "section": "A",
+      "cjelinaTitle": "Dobar dan, dobro došli!",
+      "cjelinaTitleEnglish": "Hello, welcome!",
+      "title": "Osobni podaci i pozdravljanje",
+      "titleEnglish": "Personal info & Greetings",
       "level": "a1",
-      "grammarTopics": ["present tense of biti", "nominativ", "personal pronouns", "word order", "possessive pronouns"],
-      "vocabThemes": ["greetings", "introductions", "nationalities", "professions", "possessives", "everyday objects"],
-      "questionCount": 80
+      "grammarTopics": [
+        "introductions",
+        "greetings",
+        "zvati se"
+      ],
+      "vocabThemes": [
+        "greetings",
+        "introductions",
+        "personal data"
+      ],
+      "questionCount": 12
+    },
+    {
+      "id": "ch01b",
+      "cjelina": 1,
+      "section": "B",
+      "cjelinaTitle": "Dobar dan, dobro došli!",
+      "cjelinaTitleEnglish": "Hello, welcome!",
+      "title": "Nacionalnosti i glagol BITI",
+      "titleEnglish": "Nationalities & the verb 'to be'",
+      "level": "a1",
+      "grammarTopics": [
+        "present tense of biti",
+        "personal pronouns",
+        "negative of biti"
+      ],
+      "vocabThemes": [
+        "nationalities",
+        "professions"
+      ],
+      "questionCount": 20
+    },
+    {
+      "id": "ch01c",
+      "cjelina": 1,
+      "section": "C",
+      "cjelinaTitle": "Dobar dan, dobro došli!",
+      "cjelinaTitleEnglish": "Hello, welcome!",
+      "title": "Svakodnevni predmeti i imenice",
+      "titleEnglish": "Everyday objects & Nouns",
+      "level": "a1",
+      "grammarTopics": [
+        "noun gender",
+        "demonstrative pronouns",
+        "singular and plural"
+      ],
+      "vocabThemes": [
+        "everyday objects",
+        "food and drink"
+      ],
+      "questionCount": 0
+    },
+    {
+      "id": "ch02a",
+      "cjelina": 2,
+      "section": "A",
+      "cjelinaTitle": "Moja obitelj",
+      "cjelinaTitleEnglish": "My family",
+      "title": "Posvojne zamjenice",
+      "titleEnglish": "Possessive pronouns",
+      "level": "a1",
+      "grammarTopics": [
+        "possessive pronouns",
+        "noun gender agreement"
+      ],
+      "vocabThemes": [
+        "possessives",
+        "everyday objects"
+      ],
+      "questionCount": 48
     },
     {
       "id": "ch02",
-      "number": 2,
+      "cjelina": 3,
+      "section": "A",
+      "cjelinaTitle": "Što radite?",
+      "cjelinaTitleEnglish": "What do you do?",
       "title": "Što radite?",
       "titleEnglish": "What do you do?",
       "level": "a1",
-      "grammarTopics": ["present tense -am conjugation", "present tense -im conjugation", "akuzativ basics"],
-      "vocabThemes": ["daily activities", "professions", "hobbies"],
-      "questionCount": 32
+      "grammarTopics": [
+        "present tense -am conjugation",
+        "present tense -im conjugation",
+        "akuzativ basics"
+      ],
+      "vocabThemes": [
+        "daily activities",
+        "professions",
+        "hobbies"
+      ],
+      "questionCount": 28
     },
     {
       "id": "ch03",
-      "number": 3,
+      "cjelina": 4,
+      "section": "A",
+      "cjelinaTitle": "Gdje stanujete?",
+      "cjelinaTitleEnglish": "Where do you live?",
       "title": "Gdje stanujete?",
       "titleEnglish": "Where do you live?",
       "level": "a1",
-      "grammarTopics": ["lokativ", "prepositions u and na", "adjective agreement"],
-      "vocabThemes": ["city", "housing", "directions", "countries"],
-      "questionCount": 32
+      "grammarTopics": [
+        "lokativ",
+        "prepositions u and na",
+        "adjective agreement"
+      ],
+      "vocabThemes": [
+        "city",
+        "housing",
+        "directions",
+        "countries"
+      ],
+      "questionCount": 28
     },
     {
       "id": "ch04",
-      "number": 4,
+      "cjelina": 5,
+      "section": "A",
+      "cjelinaTitle": "Koliko imate godina?",
+      "cjelinaTitleEnglish": "How old are you?",
       "title": "Koliko imate godina?",
       "titleEnglish": "How old are you?",
       "level": "a1",
-      "grammarTopics": ["numbers", "genitiv singular", "imati conjugation"],
-      "vocabThemes": ["numbers", "age", "family members"],
-      "questionCount": 32
+      "grammarTopics": [
+        "numbers",
+        "genitiv singular",
+        "imati conjugation"
+      ],
+      "vocabThemes": [
+        "numbers",
+        "age",
+        "family members"
+      ],
+      "questionCount": 28
     },
     {
       "id": "ch05",
-      "number": 5,
+      "cjelina": 6,
+      "section": "A",
+      "cjelinaTitle": "Što želite?",
+      "cjelinaTitleEnglish": "What do you want?",
       "title": "Što želite?",
       "titleEnglish": "What do you want?",
       "level": "a2",
-      "grammarTopics": ["modal verbs", "akuzativ", "word order with clitics"],
-      "vocabThemes": ["shopping", "food", "restaurants"],
-      "questionCount": 32
+      "grammarTopics": [
+        "modal verbs",
+        "akuzativ",
+        "word order with clitics"
+      ],
+      "vocabThemes": [
+        "shopping",
+        "food",
+        "restaurants"
+      ],
+      "questionCount": 28
     },
     {
       "id": "ch06",
-      "number": 6,
+      "cjelina": 7,
+      "section": "A",
+      "cjelinaTitle": "Što ste radili jučer?",
+      "cjelinaTitleEnglish": "What did you do yesterday?",
       "title": "Što ste radili jučer?",
       "titleEnglish": "What did you do yesterday?",
       "level": "a2",
-      "grammarTopics": ["past tense (perfekt)", "l-participle", "time expressions"],
-      "vocabThemes": ["daily routines", "time expressions", "days of the week"],
-      "questionCount": 32
+      "grammarTopics": [
+        "past tense (perfekt)",
+        "l-participle",
+        "time expressions"
+      ],
+      "vocabThemes": [
+        "daily routines",
+        "time expressions",
+        "days of the week"
+      ],
+      "questionCount": 28
     },
     {
       "id": "ch07",
-      "number": 7,
+      "cjelina": 8,
+      "section": "A",
+      "cjelinaTitle": "Što ćete raditi sutra?",
+      "cjelinaTitleEnglish": "What will you do tomorrow?",
       "title": "Što ćete raditi sutra?",
       "titleEnglish": "What will you do tomorrow?",
       "level": "a2",
-      "grammarTopics": ["future tense (futur I)", "htjeti conjugation", "negative future"],
-      "vocabThemes": ["plans", "weather", "seasons"],
-      "questionCount": 32
+      "grammarTopics": [
+        "future tense (futur I)",
+        "htjeti conjugation",
+        "negative future"
+      ],
+      "vocabThemes": [
+        "plans",
+        "weather",
+        "seasons"
+      ],
+      "questionCount": 28
     }
   ]
 }

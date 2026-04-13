@@ -24,7 +24,10 @@
 		5B1E76842095BB771034F217 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 441BED8035CC41B39D4584DA /* Assets.xcassets */; };
 		6A3AF10834F7D254B56D66A2 /* MultipleChoiceView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E54DF11FA56BCABD883FB5F1 /* MultipleChoiceView.swift */; };
 		750A6C727C10C1C46851F3BC /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E27D8E7A21DB71CF9CC0FF31 /* ContentView.swift */; };
-		76765037F626F3EDC0D916A9 /* ch01.json in Resources */ = {isa = PBXBuildFile; fileRef = 15998B35156189E2925644FA /* ch01.json */; };
+		AA00000000000001A0000001 /* ch01a.json in Resources */ = {isa = PBXBuildFile; fileRef = AA00000000000002A0000001 /* ch01a.json */; };
+		AA00000000000001A0000002 /* ch01b.json in Resources */ = {isa = PBXBuildFile; fileRef = AA00000000000002A0000002 /* ch01b.json */; };
+		AA00000000000001A0000003 /* ch01c.json in Resources */ = {isa = PBXBuildFile; fileRef = AA00000000000002A0000003 /* ch01c.json */; };
+		AA00000000000001A0000004 /* ch02a.json in Resources */ = {isa = PBXBuildFile; fileRef = AA00000000000002A0000004 /* ch02a.json */; };
 		98587FC0E25B6231081DD24F /* QuizSessionRecord.swift in Sources */ = {isa = PBXBuildFile; fileRef = 495DB3C2B190A1DC37D7314D /* QuizSessionRecord.swift */; };
 		9DCA3A30299C28B7084C239E /* ch03.json in Resources */ = {isa = PBXBuildFile; fileRef = D52ED688C08839217BBCE36B /* ch03.json */; };
 		B522982368CF1EDABEAE5FAF /* QuestionSelector.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CC2D1D39426F84A8E93AECA /* QuestionSelector.swift */; };
@@ -49,7 +52,10 @@
 		08433853152E7997C4AC7E0B /* ch04.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = ch04.json; sourceTree = "<group>"; };
 		12543D76BBB6AC1A7FD9DCFE /* SpellCheckTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpellCheckTextField.swift; sourceTree = "<group>"; };
 		13F49777526DA41DD31E4C8D /* Question.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Question.swift; sourceTree = "<group>"; };
-		15998B35156189E2925644FA /* ch01.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = ch01.json; sourceTree = "<group>"; };
+		AA00000000000002A0000001 /* ch01a.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = ch01a.json; sourceTree = "<group>"; };
+		AA00000000000002A0000002 /* ch01b.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = ch01b.json; sourceTree = "<group>"; };
+		AA00000000000002A0000003 /* ch01c.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = ch01c.json; sourceTree = "<group>"; };
+		AA00000000000002A0000004 /* ch02a.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = ch02a.json; sourceTree = "<group>"; };
 		17C5F434FC17AE3D9559E9FA /* ProgressRing.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProgressRing.swift; sourceTree = "<group>"; };
 		240532B197E20A0CC1EC17E3 /* QuizSessionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuizSessionView.swift; sourceTree = "<group>"; };
 		3926CF4C071D2AD33A992597 /* CroatianSpellChecker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CroatianSpellChecker.swift; sourceTree = "<group>"; };
@@ -86,8 +92,11 @@
 		11F16183A790F35D6EDBC5A5 /* questions */ = {
 			isa = PBXGroup;
 			children = (
-				15998B35156189E2925644FA /* ch01.json */,
+				AA00000000000002A0000001 /* ch01a.json */,
+				AA00000000000002A0000002 /* ch01b.json */,
+				AA00000000000002A0000003 /* ch01c.json */,
 				04F23A51C22A481DCBBCAE9C /* ch02.json */,
+				AA00000000000002A0000004 /* ch02a.json */,
 				D52ED688C08839217BBCE36B /* ch03.json */,
 				08433853152E7997C4AC7E0B /* ch04.json */,
 				A0C77248C0A865C5ABA14E22 /* ch05.json */,
@@ -284,8 +293,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				5B1E76842095BB771034F217 /* Assets.xcassets in Resources */,
-				76765037F626F3EDC0D916A9 /* ch01.json in Resources */,
+				AA00000000000001A0000001 /* ch01a.json in Resources */,
+				AA00000000000001A0000002 /* ch01b.json in Resources */,
+				AA00000000000001A0000003 /* ch01c.json in Resources */,
 				454103442F322C74F4B924D8 /* ch02.json in Resources */,
+				AA00000000000001A0000004 /* ch02a.json in Resources */,
 				9DCA3A30299C28B7084C239E /* ch03.json in Resources */,
 				4C22A7759CD092382E890F89 /* ch04.json in Resources */,
 				3008EE12CEC654FA03AC0898 /* ch05.json in Resources */,

@@ -40,11 +40,11 @@ struct ProgressOverviewView: View {
                             description: Text("Complete some quizzes to see your progress here.")
                         )
                     } else {
-                        // Accuracy by chapter
-                        chartCard("Accuracy by Chapter") {
+                        // Accuracy by section
+                        chartCard("Accuracy by Section") {
                             Chart(activeChapterData, id: \.chapter.id) { item in
                                 BarMark(
-                                    x: .value("Chapter", "Ch. \(item.chapter.number)"),
+                                    x: .value("Section", item.chapter.displayLabel),
                                     y: .value("Accuracy", item.progress.accuracy * 100),
                                     width: .fixed(40)
                                 )

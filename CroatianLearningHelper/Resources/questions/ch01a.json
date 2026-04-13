@@ -1,0 +1,152 @@
+{
+  "chapterID": "ch01a",
+  "version": 1,
+  "questions": [
+    {
+      "id": "ch01a_mc_001",
+      "chapterID": "ch01a",
+      "type": "multipleChoice",
+      "level": "a1",
+      "prompt": "How do you say 'I am a student' in Croatian?",
+      "correctAnswer": "Ja sam student.",
+      "distractors": ["Ja si student.", "Ja je student.", "Ja smo student."],
+      "hint": "Think about the first person singular of 'biti'.",
+      "explanation": "'Sam' is the first person singular present tense of 'biti' (to be). Ja sam = I am.",
+      "grammarTopic": "introductions",
+      "vocabTags": ["introductions"]
+    },
+    {
+      "id": "ch01a_mc_002",
+      "chapterID": "ch01a",
+      "type": "multipleChoice",
+      "level": "a1",
+      "prompt": "Which greeting is used in the evening?",
+      "correctAnswer": "Dobra večer!",
+      "distractors": ["Dobro jutro!", "Dobar dan!", "Dobar put!"],
+      "explanation": "Dobra večer = Good evening. Dobro jutro = Good morning. Dobar dan = Good day/afternoon.",
+      "grammarTopic": "greetings",
+      "vocabTags": ["greetings"]
+    },
+    {
+      "id": "ch01a_mc_003",
+      "chapterID": "ch01a",
+      "type": "multipleChoice",
+      "level": "a1",
+      "prompt": "How do you say 'goodbye' in Croatian?",
+      "correctAnswer": "Doviđenja!",
+      "distractors": ["Dobro jutro!", "Hvala!", "Molim!"],
+      "explanation": "Doviđenja = goodbye. Hvala = thank you. Molim = please / you're welcome.",
+      "grammarTopic": "greetings",
+      "vocabTags": ["greetings"]
+    },
+    {
+      "id": "ch01a_fb_001",
+      "chapterID": "ch01a",
+      "type": "fillInBlank",
+      "level": "a1",
+      "prompt": "Kako se ___? (What is your name? — formal)",
+      "correctAnswer": "zovete",
+      "acceptableAnswers": ["Zovete"],
+      "hint": "This is the formal (Vi) form.",
+      "explanation": "'Kako se zovete?' is the formal way to ask someone's name. 'Zovete' is 2nd person plural/formal of 'zvati se'.",
+      "grammarTopic": "introductions",
+      "vocabTags": ["introductions"]
+    },
+    {
+      "id": "ch01a_fb_002",
+      "chapterID": "ch01a",
+      "type": "fillInBlank",
+      "level": "a1",
+      "prompt": "___ mi je. (Nice to meet you.)",
+      "correctAnswer": "Drago",
+      "acceptableAnswers": ["drago"],
+      "explanation": "'Drago mi je' is the standard expression for 'Nice to meet you.' Drago = dear/pleased.",
+      "grammarTopic": "greetings",
+      "vocabTags": ["greetings"]
+    },
+    {
+      "id": "ch01a_tr_en_001",
+      "chapterID": "ch01a",
+      "type": "translationToEnglish",
+      "level": "a1",
+      "prompt": "Kako se zovete?",
+      "correctAnswer": "What is your name?",
+      "acceptableAnswers": ["What's your name?", "How are you called?", "What is your name"],
+      "explanation": "Kako = how, se zovete = are you called (formal). Literally 'How do you call yourself?'",
+      "vocabTags": ["introductions"]
+    },
+    {
+      "id": "ch01a_tr_en_002",
+      "chapterID": "ch01a",
+      "type": "translationToEnglish",
+      "level": "a1",
+      "prompt": "Drago mi je.",
+      "correctAnswer": "Nice to meet you.",
+      "acceptableAnswers": ["Pleased to meet you.", "Nice to meet you", "Glad to meet you."],
+      "explanation": "'Drago mi je' is a fixed expression meaning 'Nice to meet you' or literally 'It is dear to me'.",
+      "vocabTags": ["greetings"]
+    },
+    {
+      "id": "ch01a_tr_en_003",
+      "chapterID": "ch01a",
+      "type": "translationToEnglish",
+      "level": "a1",
+      "prompt": "Dobar dan! Kako ste?",
+      "correctAnswer": "Good day! How are you?",
+      "acceptableAnswers": ["Good afternoon! How are you?", "Hello! How are you?", "Good day! How are you"],
+      "explanation": "Dobar dan = Good day (standard daytime greeting). Kako ste = How are you (formal).",
+      "vocabTags": ["greetings"]
+    },
+    {
+      "id": "ch01a_tr_hr_001",
+      "chapterID": "ch01a",
+      "type": "translationToCroatian",
+      "level": "a1",
+      "prompt": "Good morning!",
+      "correctAnswer": "Dobro jutro!",
+      "acceptableAnswers": ["Dobro jutro"],
+      "explanation": "Dobro = good (neuter), jutro = morning (neuter noun, so the adjective matches).",
+      "grammarTopic": "greetings",
+      "vocabTags": ["greetings"]
+    },
+    {
+      "id": "ch01a_tr_hr_002",
+      "chapterID": "ch01a",
+      "type": "translationToCroatian",
+      "level": "a1",
+      "prompt": "Nice to meet you.",
+      "correctAnswer": "Drago mi je.",
+      "acceptableAnswers": ["Drago mi je"],
+      "explanation": "'Drago mi je' is the standard expression. Drago = dear/glad, mi = to me, je = is.",
+      "grammarTopic": "greetings",
+      "vocabTags": ["greetings"]
+    },
+    {
+      "id": "ch01a_tr_hr_003",
+      "chapterID": "ch01a",
+      "type": "translationToCroatian",
+      "level": "a1",
+      "prompt": "What is your name? (informal)",
+      "correctAnswer": "Kako se zoveš?",
+      "acceptableAnswers": ["Kako se zoves?"],
+      "hint": "Use the 'ti' form for informal.",
+      "explanation": "Zoveš is the 2nd person singular (informal) of 'zvati se'. Compare with formal: zovete.",
+      "grammarTopic": "introductions",
+      "vocabTags": ["introductions"]
+    },
+    {
+      "id": "ch01a_conj_001",
+      "chapterID": "ch01a",
+      "type": "conjugation",
+      "level": "a1",
+      "prompt": "Conjugate 'zvati se' (to be called/named) in the present tense.",
+      "correctAnswer": "ja se zovem, ti se zoveš, on/ona/ono se zove, mi se zovemo, vi se zovete, oni/one/ona se zovu",
+      "hint": "This is an -em conjugation verb. Don't forget 'se'!",
+      "explanation": "Zvati se follows the -em pattern. 'Se' is the reflexive particle and always comes before the verb in this position.",
+      "exampleSentence": "Kako se zoveš? — Zovem se Ana.",
+      "exampleTranslation": "What's your name? — My name is Ana.",
+      "grammarTopic": "introductions",
+      "vocabTags": ["introductions"]
+    }
+  ]
+}

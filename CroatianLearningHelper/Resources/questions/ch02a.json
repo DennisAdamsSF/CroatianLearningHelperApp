@@ -1,0 +1,890 @@
+{
+  "chapterID": "ch02a",
+  "version": 1,
+  "questions": [
+    {
+      "id": "ch02a_mc_001",
+      "chapterID": "ch02a",
+      "type": "multipleChoice",
+      "level": "a1",
+      "prompt": "Which question word do you use to ask 'Whose?' for a masculine noun (e.g. mobitel)?",
+      "correctAnswer": "Čiji?",
+      "distractors": [
+        "Čija?",
+        "Čije?",
+        "Koji?"
+      ],
+      "explanation": "Čiji is used for masculine singular nouns. Čija = feminine, Čije = neuter. Mobitel is masculine, so: Čiji je mobitel?",
+      "grammarTopic": "possessive pronouns",
+      "vocabTags": [
+        "possessives",
+        "everyday objects"
+      ]
+    },
+    {
+      "id": "ch02a_mc_002",
+      "chapterID": "ch02a",
+      "type": "multipleChoice",
+      "level": "a1",
+      "prompt": "Which question word do you use to ask 'Whose?' for a feminine noun (e.g. knjiga)?",
+      "correctAnswer": "Čija?",
+      "distractors": [
+        "Čiji?",
+        "Čije?",
+        "Koja?"
+      ],
+      "explanation": "Čija is used for feminine singular nouns. Knjiga is feminine, so: Čija je knjiga?",
+      "grammarTopic": "possessive pronouns",
+      "vocabTags": [
+        "possessives",
+        "everyday objects"
+      ]
+    },
+    {
+      "id": "ch02a_mc_003",
+      "chapterID": "ch02a",
+      "type": "multipleChoice",
+      "level": "a1",
+      "prompt": "Which question word do you use to ask 'Whose?' for a neuter noun (e.g. pivo)?",
+      "correctAnswer": "Čije?",
+      "distractors": [
+        "Čiji?",
+        "Čija?",
+        "Koje?"
+      ],
+      "explanation": "Čije is used for neuter singular nouns. Pivo is neuter, so: Čije je pivo?",
+      "grammarTopic": "possessive pronouns",
+      "vocabTags": [
+        "possessives",
+        "everyday objects"
+      ]
+    },
+    {
+      "id": "ch02a_mc_004",
+      "chapterID": "ch02a",
+      "type": "multipleChoice",
+      "level": "a1",
+      "prompt": "'Knjiga je ___.' (The book is mine.) — Choose the correct possessive pronoun (ja).",
+      "correctAnswer": "moja",
+      "distractors": [
+        "moj",
+        "moje",
+        "moji"
+      ],
+      "explanation": "Knjiga is feminine singular, so the possessive pronoun must also be feminine: moja. Moj = masculine, moje = neuter.",
+      "grammarTopic": "possessive pronouns",
+      "vocabTags": [
+        "possessives",
+        "everyday objects"
+      ]
+    },
+    {
+      "id": "ch02a_mc_005",
+      "chapterID": "ch02a",
+      "type": "multipleChoice",
+      "level": "a1",
+      "prompt": "'Računalo je ___.' (The computer is his.) — Choose the correct possessive pronoun (on).",
+      "correctAnswer": "njegovo",
+      "distractors": [
+        "njegov",
+        "njegova",
+        "njegovi"
+      ],
+      "explanation": "Računalo is neuter singular, so the possessive must be neuter: njegovo. Njegov = masculine, njegova = feminine.",
+      "grammarTopic": "possessive pronouns",
+      "vocabTags": [
+        "possessives",
+        "everyday objects"
+      ]
+    },
+    {
+      "id": "ch02a_mc_006",
+      "chapterID": "ch02a",
+      "type": "multipleChoice",
+      "level": "a1",
+      "prompt": "'Automobil je ___.' (The car is ours.) — Choose the correct possessive pronoun (mi).",
+      "correctAnswer": "naš",
+      "distractors": [
+        "naša",
+        "naše",
+        "naši"
+      ],
+      "explanation": "Automobil is masculine singular, so the possessive must be masculine: naš. Naša = feminine, naše = neuter.",
+      "grammarTopic": "possessive pronouns",
+      "vocabTags": [
+        "possessives",
+        "everyday objects"
+      ]
+    },
+    {
+      "id": "ch02a_fb_001",
+      "chapterID": "ch02a",
+      "type": "fillInBlank",
+      "level": "a1",
+      "prompt": "Mobitel je ___. (The phone is mine. — ja, masculine noun)",
+      "correctAnswer": "moj",
+      "acceptableAnswers": [
+        "Moj"
+      ],
+      "explanation": "Mobitel is masculine, so 'my' must agree: moj. The full sentence: Mobitel je moj.",
+      "grammarTopic": "possessive pronouns",
+      "vocabTags": [
+        "possessives",
+        "everyday objects"
+      ]
+    },
+    {
+      "id": "ch02a_fb_002",
+      "chapterID": "ch02a",
+      "type": "fillInBlank",
+      "level": "a1",
+      "prompt": "Torba je ___. (The bag is ours. — mi, feminine noun)",
+      "correctAnswer": "naša",
+      "acceptableAnswers": [
+        "Naša",
+        "nasa",
+        "Nasa"
+      ],
+      "explanation": "Torba is feminine, so 'our' must agree: naša. Naš = masculine, naše = neuter.",
+      "grammarTopic": "possessive pronouns",
+      "vocabTags": [
+        "possessives",
+        "everyday objects"
+      ]
+    },
+    {
+      "id": "ch02a_fb_003",
+      "chapterID": "ch02a",
+      "type": "fillInBlank",
+      "level": "a1",
+      "prompt": "Beba je ___. (The baby is his. — on, feminine noun)",
+      "correctAnswer": "njegova",
+      "acceptableAnswers": [
+        "Njegova"
+      ],
+      "explanation": "Beba is feminine, so 'his' must agree: njegova. Njegov = masculine, njegovo = neuter.",
+      "grammarTopic": "possessive pronouns",
+      "vocabTags": [
+        "possessives",
+        "everyday objects"
+      ]
+    },
+    {
+      "id": "ch02a_fb_004",
+      "chapterID": "ch02a",
+      "type": "fillInBlank",
+      "level": "a1",
+      "prompt": "Kuća je ___. (The house is theirs. — oni, feminine noun)",
+      "correctAnswer": "njihova",
+      "acceptableAnswers": [
+        "Njihova"
+      ],
+      "explanation": "Kuća is feminine, so 'their' must agree: njihova. Njihov = masculine, njihovo = neuter.",
+      "grammarTopic": "possessive pronouns",
+      "vocabTags": [
+        "possessives",
+        "everyday objects"
+      ]
+    },
+    {
+      "id": "ch02a_fb_005",
+      "chapterID": "ch02a",
+      "type": "fillInBlank",
+      "level": "a1",
+      "prompt": "Pivo je ___. (The beer is yours. — Vi, neuter noun)",
+      "correctAnswer": "vaše",
+      "acceptableAnswers": [
+        "Vaše",
+        "vase",
+        "Vase"
+      ],
+      "explanation": "Pivo is neuter, so 'your' (formal) must agree: vaše. Vaš = masculine, vaša = feminine.",
+      "grammarTopic": "possessive pronouns",
+      "vocabTags": [
+        "possessives",
+        "everyday objects"
+      ]
+    },
+    {
+      "id": "ch02a_fb_006",
+      "chapterID": "ch02a",
+      "type": "fillInBlank",
+      "level": "a1",
+      "prompt": "Jabuka je ___. (The apple is hers. — ona, feminine noun)",
+      "correctAnswer": "njezina",
+      "acceptableAnswers": [
+        "Njezina",
+        "njena",
+        "Njena"
+      ],
+      "explanation": "Jabuka is feminine, so 'her' must agree: njezina. Njezin = masculine, njezino = neuter. Njena/njezina are both used.",
+      "grammarTopic": "possessive pronouns",
+      "vocabTags": [
+        "possessives",
+        "everyday objects"
+      ]
+    },
+    {
+      "id": "ch02a_fb_007",
+      "chapterID": "ch02a",
+      "type": "fillInBlank",
+      "level": "a1",
+      "prompt": "Pecivo je ___. (The pastry is mine. — ja, neuter noun)",
+      "correctAnswer": "moje",
+      "acceptableAnswers": [
+        "Moje"
+      ],
+      "explanation": "Pecivo is neuter, so 'my' must agree: moje. Moj = masculine, moja = feminine.",
+      "grammarTopic": "possessive pronouns",
+      "vocabTags": [
+        "possessives",
+        "everyday objects"
+      ]
+    },
+    {
+      "id": "ch02a_fb_008",
+      "chapterID": "ch02a",
+      "type": "fillInBlank",
+      "level": "a1",
+      "prompt": "___ je cipela? (Whose shoe is it? — feminine noun)",
+      "correctAnswer": "Čija",
+      "acceptableAnswers": [
+        "čija",
+        "Cija",
+        "cija"
+      ],
+      "explanation": "Cipela is feminine, so the question word 'whose' must agree: Čija. Čiji = masculine, Čije = neuter.",
+      "grammarTopic": "possessive pronouns",
+      "vocabTags": [
+        "possessives",
+        "everyday objects"
+      ]
+    },
+    {
+      "id": "ch02a_fb_009",
+      "chapterID": "ch02a",
+      "type": "fillInBlank",
+      "level": "a1",
+      "prompt": "___ je računalo? (Whose computer is it? — neuter noun)",
+      "correctAnswer": "Čije",
+      "acceptableAnswers": [
+        "čije",
+        "Cije",
+        "cije"
+      ],
+      "explanation": "Računalo is neuter, so the question word 'whose' must agree: Čije. Čiji = masculine, Čija = feminine.",
+      "grammarTopic": "possessive pronouns",
+      "vocabTags": [
+        "possessives",
+        "everyday objects"
+      ]
+    },
+    {
+      "id": "ch02a_tr_en_001",
+      "chapterID": "ch02a",
+      "type": "translationToEnglish",
+      "level": "a1",
+      "prompt": "Čiji je mobitel?",
+      "correctAnswer": "Whose phone is it?",
+      "acceptableAnswers": [
+        "Whose phone is this?",
+        "Whose is the phone?",
+        "Whose mobile phone is it?"
+      ],
+      "explanation": "Čiji = whose (masculine). Mobitel is masculine, so 'čiji' agrees with it.",
+      "grammarTopic": "possessive pronouns",
+      "vocabTags": [
+        "possessives",
+        "everyday objects"
+      ]
+    },
+    {
+      "id": "ch02a_tr_en_002",
+      "chapterID": "ch02a",
+      "type": "translationToEnglish",
+      "level": "a1",
+      "prompt": "Knjiga je tvoja.",
+      "correctAnswer": "The book is yours.",
+      "acceptableAnswers": [
+        "The book is yours",
+        "That book is yours."
+      ],
+      "explanation": "Tvoja = yours (feminine, matching knjiga). Tvoj = masculine, tvoje = neuter.",
+      "grammarTopic": "possessive pronouns",
+      "vocabTags": [
+        "possessives",
+        "everyday objects"
+      ]
+    },
+    {
+      "id": "ch02a_tr_en_003",
+      "chapterID": "ch02a",
+      "type": "translationToEnglish",
+      "level": "a1",
+      "prompt": "Automobil je njihov.",
+      "correctAnswer": "The car is theirs.",
+      "acceptableAnswers": [
+        "The car is theirs",
+        "That car is theirs."
+      ],
+      "explanation": "Njihov = theirs (masculine, matching automobil). Njihova = feminine, njihovo = neuter.",
+      "grammarTopic": "possessive pronouns",
+      "vocabTags": [
+        "possessives",
+        "everyday objects"
+      ]
+    },
+    {
+      "id": "ch02a_tr_en_004",
+      "chapterID": "ch02a",
+      "type": "translationToEnglish",
+      "level": "a1",
+      "prompt": "Kava je njezina.",
+      "correctAnswer": "The coffee is hers.",
+      "acceptableAnswers": [
+        "The coffee is hers",
+        "That coffee is hers."
+      ],
+      "explanation": "Njezina = hers (feminine, matching kava). Njezin = masculine, njezino = neuter.",
+      "grammarTopic": "possessive pronouns",
+      "vocabTags": [
+        "possessives",
+        "everyday objects"
+      ]
+    },
+    {
+      "id": "ch02a_tr_hr_001",
+      "chapterID": "ch02a",
+      "type": "translationToCroatian",
+      "level": "a1",
+      "prompt": "The bag is mine. (feminine noun)",
+      "correctAnswer": "Torba je moja.",
+      "acceptableAnswers": [
+        "Torba je moja"
+      ],
+      "hint": "Torba is feminine — the possessive must match.",
+      "explanation": "Torba (bag) is feminine, so 'my' = moja. Moj = masculine, moje = neuter.",
+      "grammarTopic": "possessive pronouns",
+      "vocabTags": [
+        "possessives",
+        "everyday objects"
+      ]
+    },
+    {
+      "id": "ch02a_tr_hr_002",
+      "chapterID": "ch02a",
+      "type": "translationToCroatian",
+      "level": "a1",
+      "prompt": "Whose house is it? (feminine noun)",
+      "correctAnswer": "Čija je kuća?",
+      "acceptableAnswers": [
+        "Čija je kuća"
+      ],
+      "hint": "Kuća is feminine — use the feminine form of 'whose'.",
+      "explanation": "Kuća is feminine, so 'whose' = čija. Čiji = masculine, čije = neuter.",
+      "grammarTopic": "possessive pronouns",
+      "vocabTags": [
+        "possessives",
+        "everyday objects"
+      ]
+    },
+    {
+      "id": "ch02a_tr_hr_003",
+      "chapterID": "ch02a",
+      "type": "translationToCroatian",
+      "level": "a1",
+      "prompt": "The beer is yours. (neuter noun, formal Vi)",
+      "correctAnswer": "Pivo je vaše.",
+      "acceptableAnswers": [
+        "Pivo je vaše",
+        "Pivo je Vaše."
+      ],
+      "hint": "Pivo is neuter — the possessive must match.",
+      "explanation": "Pivo (beer) is neuter, so 'your' (formal) = vaše. Vaš = masculine, vaša = feminine.",
+      "grammarTopic": "possessive pronouns",
+      "vocabTags": [
+        "possessives",
+        "everyday objects"
+      ]
+    },
+    {
+      "id": "ch02a_tr_hr_004",
+      "chapterID": "ch02a",
+      "type": "translationToCroatian",
+      "level": "a1",
+      "prompt": "The computer is his. (neuter noun)",
+      "correctAnswer": "Računalo je njegovo.",
+      "acceptableAnswers": [
+        "Računalo je njegovo",
+        "Racunalo je njegovo."
+      ],
+      "hint": "Računalo is neuter — the possessive must match.",
+      "explanation": "Računalo (computer) is neuter, so 'his' = njegovo. Njegov = masculine, njegova = feminine.",
+      "grammarTopic": "possessive pronouns",
+      "vocabTags": [
+        "possessives",
+        "everyday objects"
+      ]
+    },
+    {
+      "id": "ch02a_tr_hr_005",
+      "chapterID": "ch02a",
+      "type": "translationToCroatian",
+      "level": "a1",
+      "prompt": "The car is ours. (masculine noun)",
+      "correctAnswer": "Automobil je naš.",
+      "acceptableAnswers": [
+        "Automobil je naš",
+        "Automobil je nas."
+      ],
+      "hint": "Automobil is masculine — the possessive must match.",
+      "explanation": "Automobil (car) is masculine, so 'our' = naš. Naša = feminine, naše = neuter.",
+      "grammarTopic": "possessive pronouns",
+      "vocabTags": [
+        "possessives",
+        "everyday objects"
+      ]
+    },
+    {
+      "id": "ch02a_mc_007",
+      "chapterID": "ch02a",
+      "type": "multipleChoice",
+      "level": "a1",
+      "prompt": "'Knjige su ___.' (The books are mine.) — Choose the correct plural possessive (ja).",
+      "correctAnswer": "moje",
+      "distractors": [
+        "moj",
+        "moja",
+        "moji"
+      ],
+      "explanation": "Knjige is feminine plural, so the possessive must be feminine plural: moje. Moji = masculine plural, moja = neuter plural.",
+      "grammarTopic": "possessive pronouns",
+      "vocabTags": [
+        "possessives",
+        "everyday objects"
+      ]
+    },
+    {
+      "id": "ch02a_mc_008",
+      "chapterID": "ch02a",
+      "type": "multipleChoice",
+      "level": "a1",
+      "prompt": "'Mobiteli su ___.' (The phones are his.) — Choose the correct plural possessive (on).",
+      "correctAnswer": "njegovi",
+      "distractors": [
+        "njegov",
+        "njegova",
+        "njegovo"
+      ],
+      "explanation": "Mobiteli is masculine plural, so the possessive must be masculine plural: njegovi. Njegove = feminine plural, njegova = neuter plural.",
+      "grammarTopic": "possessive pronouns",
+      "vocabTags": [
+        "possessives",
+        "everyday objects"
+      ]
+    },
+    {
+      "id": "ch02a_mc_009",
+      "chapterID": "ch02a",
+      "type": "multipleChoice",
+      "level": "a1",
+      "prompt": "'Računala su ___.' (The computers are theirs.) — Choose the correct plural possessive (oni).",
+      "correctAnswer": "njihova",
+      "distractors": [
+        "njihov",
+        "njihove",
+        "njihovi"
+      ],
+      "explanation": "Računala is neuter plural, so the possessive must be neuter plural: njihova. Njihovi = masculine plural, njihove = feminine plural.",
+      "grammarTopic": "possessive pronouns",
+      "vocabTags": [
+        "possessives",
+        "everyday objects"
+      ]
+    },
+    {
+      "id": "ch02a_mc_010",
+      "chapterID": "ch02a",
+      "type": "multipleChoice",
+      "level": "a1",
+      "prompt": "Which question word do you use to ask 'Whose?' for a feminine plural noun (e.g. torbe)?",
+      "correctAnswer": "Čije?",
+      "distractors": [
+        "Čiji?",
+        "Čija?",
+        "Koje?"
+      ],
+      "explanation": "Čije is used for feminine plural nouns. Čiji = masculine plural, Čija = neuter plural. Torbe is feminine plural, so: Čije su torbe?",
+      "grammarTopic": "possessive pronouns",
+      "vocabTags": [
+        "possessives",
+        "everyday objects"
+      ]
+    },
+    {
+      "id": "ch02a_mc_011",
+      "chapterID": "ch02a",
+      "type": "multipleChoice",
+      "level": "a1",
+      "prompt": "Which question word do you use to ask 'Whose?' for a neuter plural noun (e.g. piva)?",
+      "correctAnswer": "Čija?",
+      "distractors": [
+        "Čiji?",
+        "Čije?",
+        "Koja?"
+      ],
+      "explanation": "Čija is used for neuter plural nouns. Note: neuter plural 'whose' looks the same as feminine singular! Čiji = masculine plural, Čije = feminine plural.",
+      "grammarTopic": "possessive pronouns",
+      "vocabTags": [
+        "possessives",
+        "everyday objects"
+      ]
+    },
+    {
+      "id": "ch02a_fb_010",
+      "chapterID": "ch02a",
+      "type": "fillInBlank",
+      "level": "a1",
+      "prompt": "Torbe su ___. (The bags are theirs. — one, feminine plural)",
+      "correctAnswer": "njihove",
+      "acceptableAnswers": [
+        "Njihove"
+      ],
+      "explanation": "Torbe is feminine plural, so 'their' must agree: njihove. Njihovi = masculine plural, njihova = neuter plural.",
+      "grammarTopic": "possessive pronouns",
+      "vocabTags": [
+        "possessives",
+        "everyday objects"
+      ]
+    },
+    {
+      "id": "ch02a_fb_011",
+      "chapterID": "ch02a",
+      "type": "fillInBlank",
+      "level": "a1",
+      "prompt": "Bebe su ___. (The babies are hers. — ona, feminine plural)",
+      "correctAnswer": "njezine",
+      "acceptableAnswers": [
+        "Njezine",
+        "njene",
+        "Njene"
+      ],
+      "explanation": "Bebe is feminine plural, so 'her' must agree: njezine. Njezini = masculine plural, njezina = neuter plural.",
+      "grammarTopic": "possessive pronouns",
+      "vocabTags": [
+        "possessives",
+        "everyday objects"
+      ]
+    },
+    {
+      "id": "ch02a_fb_012",
+      "chapterID": "ch02a",
+      "type": "fillInBlank",
+      "level": "a1",
+      "prompt": "Kuće su ___. (The houses are yours. — Vi, feminine plural)",
+      "correctAnswer": "vaše",
+      "acceptableAnswers": [
+        "Vaše",
+        "vase",
+        "Vase"
+      ],
+      "explanation": "Kuće is feminine plural, so 'your' (formal) must agree: vaše. Vaši = masculine plural, vaša = neuter plural.",
+      "grammarTopic": "possessive pronouns",
+      "vocabTags": [
+        "possessives",
+        "everyday objects"
+      ]
+    },
+    {
+      "id": "ch02a_fb_013",
+      "chapterID": "ch02a",
+      "type": "fillInBlank",
+      "level": "a1",
+      "prompt": "Piva su ___. (The beers are yours. — vi, neuter plural)",
+      "correctAnswer": "vaša",
+      "acceptableAnswers": [
+        "Vaša",
+        "vasa",
+        "Vasa"
+      ],
+      "explanation": "Piva is neuter plural, so 'your' must agree: vaša. Vaši = masculine plural, vaše = feminine plural.",
+      "grammarTopic": "possessive pronouns",
+      "vocabTags": [
+        "possessives",
+        "everyday objects"
+      ]
+    },
+    {
+      "id": "ch02a_fb_014",
+      "chapterID": "ch02a",
+      "type": "fillInBlank",
+      "level": "a1",
+      "prompt": "Jabuke su ___. (The apples are his. — on, feminine plural)",
+      "correctAnswer": "njegove",
+      "acceptableAnswers": [
+        "Njegove"
+      ],
+      "explanation": "Jabuke is feminine plural, so 'his' must agree: njegove. Njegovi = masculine plural, njegova = neuter plural.",
+      "grammarTopic": "possessive pronouns",
+      "vocabTags": [
+        "possessives",
+        "everyday objects"
+      ]
+    },
+    {
+      "id": "ch02a_fb_015",
+      "chapterID": "ch02a",
+      "type": "fillInBlank",
+      "level": "a1",
+      "prompt": "Kave su ___. (The coffees are ours. — mi, feminine plural)",
+      "correctAnswer": "naše",
+      "acceptableAnswers": [
+        "Naše",
+        "nase",
+        "Nase"
+      ],
+      "explanation": "Kave is feminine plural, so 'our' must agree: naše. Naši = masculine plural, naša = neuter plural.",
+      "grammarTopic": "possessive pronouns",
+      "vocabTags": [
+        "possessives",
+        "everyday objects"
+      ]
+    },
+    {
+      "id": "ch02a_fb_016",
+      "chapterID": "ch02a",
+      "type": "fillInBlank",
+      "level": "a1",
+      "prompt": "Cipele su ___. (The shoes are hers. — ona, feminine plural)",
+      "correctAnswer": "njezine",
+      "acceptableAnswers": [
+        "Njezine",
+        "njene",
+        "Njene"
+      ],
+      "explanation": "Cipele is feminine plural, so 'her' must agree: njezine. Njezini = masculine plural, njezina = neuter plural.",
+      "grammarTopic": "possessive pronouns",
+      "vocabTags": [
+        "possessives",
+        "everyday objects"
+      ]
+    },
+    {
+      "id": "ch02a_fb_017",
+      "chapterID": "ch02a",
+      "type": "fillInBlank",
+      "level": "a1",
+      "prompt": "Automobili su ___. (The cars are ours. — mi, masculine plural)",
+      "correctAnswer": "naši",
+      "acceptableAnswers": [
+        "Naši",
+        "nasi",
+        "Nasi"
+      ],
+      "explanation": "Automobili is masculine plural, so 'our' must agree: naši. Naše = feminine plural, naša = neuter plural.",
+      "grammarTopic": "possessive pronouns",
+      "vocabTags": [
+        "possessives",
+        "everyday objects"
+      ]
+    },
+    {
+      "id": "ch02a_fb_018",
+      "chapterID": "ch02a",
+      "type": "fillInBlank",
+      "level": "a1",
+      "prompt": "Peciva su ___. (The pastries are mine. — ja, neuter plural)",
+      "correctAnswer": "moja",
+      "acceptableAnswers": [
+        "Moja"
+      ],
+      "explanation": "Peciva is neuter plural, so 'my' must agree: moja. Moji = masculine plural, moje = feminine plural.",
+      "grammarTopic": "possessive pronouns",
+      "vocabTags": [
+        "possessives",
+        "everyday objects"
+      ]
+    },
+    {
+      "id": "ch02a_fb_019",
+      "chapterID": "ch02a",
+      "type": "fillInBlank",
+      "level": "a1",
+      "prompt": "___ su mobiteli? (Whose phones are they? — masculine plural)",
+      "correctAnswer": "Čiji",
+      "acceptableAnswers": [
+        "čiji",
+        "Ciji",
+        "ciji"
+      ],
+      "explanation": "Mobiteli is masculine plural, so the question word 'whose' must agree: Čiji. Čije = feminine plural, Čija = neuter plural.",
+      "grammarTopic": "possessive pronouns",
+      "vocabTags": [
+        "possessives",
+        "everyday objects"
+      ]
+    },
+    {
+      "id": "ch02a_tr_en_005",
+      "chapterID": "ch02a",
+      "type": "translationToEnglish",
+      "level": "a1",
+      "prompt": "Mobiteli su njegovi.",
+      "correctAnswer": "The phones are his.",
+      "acceptableAnswers": [
+        "The phones are his",
+        "The mobile phones are his."
+      ],
+      "explanation": "Njegovi = his (masculine plural, matching mobiteli). In singular it would be: Mobitel je njegov.",
+      "grammarTopic": "possessive pronouns",
+      "vocabTags": [
+        "possessives",
+        "everyday objects"
+      ]
+    },
+    {
+      "id": "ch02a_tr_en_006",
+      "chapterID": "ch02a",
+      "type": "translationToEnglish",
+      "level": "a1",
+      "prompt": "Čije su torbe?",
+      "correctAnswer": "Whose bags are they?",
+      "acceptableAnswers": [
+        "Whose bags are these?",
+        "Whose are the bags?"
+      ],
+      "explanation": "Čije = whose (feminine plural, matching torbe). In singular: Čija je torba?",
+      "grammarTopic": "possessive pronouns",
+      "vocabTags": [
+        "possessives",
+        "everyday objects"
+      ]
+    },
+    {
+      "id": "ch02a_tr_en_007",
+      "chapterID": "ch02a",
+      "type": "translationToEnglish",
+      "level": "a1",
+      "prompt": "Računala su njihova.",
+      "correctAnswer": "The computers are theirs.",
+      "acceptableAnswers": [
+        "The computers are theirs"
+      ],
+      "explanation": "Njihova = theirs (neuter plural, matching računala). In singular: Računalo je njihovo.",
+      "grammarTopic": "possessive pronouns",
+      "vocabTags": [
+        "possessives",
+        "everyday objects"
+      ]
+    },
+    {
+      "id": "ch02a_tr_en_008",
+      "chapterID": "ch02a",
+      "type": "translationToEnglish",
+      "level": "a1",
+      "prompt": "Peciva su moja.",
+      "correctAnswer": "The pastries are mine.",
+      "acceptableAnswers": [
+        "The pastries are mine"
+      ],
+      "explanation": "Moja = mine (neuter plural, matching peciva). Note: neuter plural possessive looks like feminine singular (moja).",
+      "grammarTopic": "possessive pronouns",
+      "vocabTags": [
+        "possessives",
+        "everyday objects"
+      ]
+    },
+    {
+      "id": "ch02a_tr_hr_006",
+      "chapterID": "ch02a",
+      "type": "translationToCroatian",
+      "level": "a1",
+      "prompt": "The books are mine. (feminine plural)",
+      "correctAnswer": "Knjige su moje.",
+      "acceptableAnswers": [
+        "Knjige su moje"
+      ],
+      "hint": "Knjige is feminine plural — the possessive must match.",
+      "explanation": "Knjige (books) is feminine plural, so 'my' = moje. Moji = masculine plural, moja = neuter plural.",
+      "grammarTopic": "possessive pronouns",
+      "vocabTags": [
+        "possessives",
+        "everyday objects"
+      ]
+    },
+    {
+      "id": "ch02a_tr_hr_007",
+      "chapterID": "ch02a",
+      "type": "translationToCroatian",
+      "level": "a1",
+      "prompt": "The cars are ours. (masculine plural)",
+      "correctAnswer": "Automobili su naši.",
+      "acceptableAnswers": [
+        "Automobili su naši",
+        "Automobili su nasi."
+      ],
+      "hint": "Automobili is masculine plural — the possessive must match.",
+      "explanation": "Automobili (cars) is masculine plural, so 'our' = naši. Naše = feminine plural, naša = neuter plural.",
+      "grammarTopic": "possessive pronouns",
+      "vocabTags": [
+        "possessives",
+        "everyday objects"
+      ]
+    },
+    {
+      "id": "ch02a_tr_hr_008",
+      "chapterID": "ch02a",
+      "type": "translationToCroatian",
+      "level": "a1",
+      "prompt": "Whose beers are they? (neuter plural)",
+      "correctAnswer": "Čija su piva?",
+      "acceptableAnswers": [
+        "Čija su piva"
+      ],
+      "hint": "Piva is neuter plural — use the neuter plural form of 'whose'.",
+      "explanation": "Piva (beers) is neuter plural, so 'whose' = čija. Note: čija is both feminine singular and neuter plural!",
+      "grammarTopic": "possessive pronouns",
+      "vocabTags": [
+        "possessives",
+        "everyday objects"
+      ]
+    },
+    {
+      "id": "ch02a_tr_hr_009",
+      "chapterID": "ch02a",
+      "type": "translationToCroatian",
+      "level": "a1",
+      "prompt": "The shoes are hers. (feminine plural)",
+      "correctAnswer": "Cipele su njezine.",
+      "acceptableAnswers": [
+        "Cipele su njezine",
+        "Cipele su njene."
+      ],
+      "hint": "Cipele is feminine plural — the possessive must match.",
+      "explanation": "Cipele (shoes) is feminine plural, so 'her' = njezine (or njene). Njezini = masculine plural, njezina = neuter plural.",
+      "grammarTopic": "possessive pronouns",
+      "vocabTags": [
+        "possessives",
+        "everyday objects"
+      ]
+    },
+    {
+      "id": "ch02a_tr_hr_010",
+      "chapterID": "ch02a",
+      "type": "translationToCroatian",
+      "level": "a1",
+      "prompt": "The phones are theirs. (masculine plural)",
+      "correctAnswer": "Mobiteli su njihovi.",
+      "acceptableAnswers": [
+        "Mobiteli su njihovi"
+      ],
+      "hint": "Mobiteli is masculine plural — the possessive must match.",
+      "explanation": "Mobiteli (phones) is masculine plural, so 'their' = njihovi. Njihove = feminine plural, njihova = neuter plural.",
+      "grammarTopic": "possessive pronouns",
+      "vocabTags": [
+        "possessives",
+        "everyday objects"
+      ]
+    }
+  ]
+}
