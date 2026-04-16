@@ -24,16 +24,16 @@
 		5B1E76842095BB771034F217 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 441BED8035CC41B39D4584DA /* Assets.xcassets */; };
 		6A3AF10834F7D254B56D66A2 /* MultipleChoiceView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E54DF11FA56BCABD883FB5F1 /* MultipleChoiceView.swift */; };
 		750A6C727C10C1C46851F3BC /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E27D8E7A21DB71CF9CC0FF31 /* ContentView.swift */; };
+		98587FC0E25B6231081DD24F /* QuizSessionRecord.swift in Sources */ = {isa = PBXBuildFile; fileRef = 495DB3C2B190A1DC37D7314D /* QuizSessionRecord.swift */; };
+		9DCA3A30299C28B7084C239E /* ch03.json in Resources */ = {isa = PBXBuildFile; fileRef = D52ED688C08839217BBCE36B /* ch03.json */; };
 		AA00000000000001A0000001 /* ch01a.json in Resources */ = {isa = PBXBuildFile; fileRef = AA00000000000002A0000001 /* ch01a.json */; };
 		AA00000000000001A0000002 /* ch01b.json in Resources */ = {isa = PBXBuildFile; fileRef = AA00000000000002A0000002 /* ch01b.json */; };
 		AA00000000000001A0000003 /* ch01c.json in Resources */ = {isa = PBXBuildFile; fileRef = AA00000000000002A0000003 /* ch01c.json */; };
 		AA00000000000001A0000004 /* ch02a.json in Resources */ = {isa = PBXBuildFile; fileRef = AA00000000000002A0000004 /* ch02a.json */; };
-		98587FC0E25B6231081DD24F /* QuizSessionRecord.swift in Sources */ = {isa = PBXBuildFile; fileRef = 495DB3C2B190A1DC37D7314D /* QuizSessionRecord.swift */; };
-		9DCA3A30299C28B7084C239E /* ch03.json in Resources */ = {isa = PBXBuildFile; fileRef = D52ED688C08839217BBCE36B /* ch03.json */; };
 		B522982368CF1EDABEAE5FAF /* QuestionSelector.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CC2D1D39426F84A8E93AECA /* QuestionSelector.swift */; };
 		B89AEF2E177A26AC4DD1A4F0 /* Chapter.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC2DB333064CD146E4A6A7F3 /* Chapter.swift */; };
-		BF7A9D266DEAA4B2A9CC05E1 /* AnswerChecker.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA0FD729989A7AEFED35C3FB /* AnswerChecker.swift */; };
 		BB00000000000001A0000001 /* SentenceBuilderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB00000000000002A0000001 /* SentenceBuilderView.swift */; };
+		BF7A9D266DEAA4B2A9CC05E1 /* AnswerChecker.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA0FD729989A7AEFED35C3FB /* AnswerChecker.swift */; };
 		C365DBD6F90C9A106E863961 /* SpellCheckTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12543D76BBB6AC1A7FD9DCFE /* SpellCheckTextField.swift */; };
 		CA4FA797612384456F93A241 /* ChapterListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6F1FE724D079C3DAA8353EA /* ChapterListView.swift */; };
 		D25584FA3997270E5707E635 /* TranslationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B2DCF4DC5AA9764881451E7 /* TranslationView.swift */; };
@@ -53,10 +53,6 @@
 		08433853152E7997C4AC7E0B /* ch04.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = ch04.json; sourceTree = "<group>"; };
 		12543D76BBB6AC1A7FD9DCFE /* SpellCheckTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpellCheckTextField.swift; sourceTree = "<group>"; };
 		13F49777526DA41DD31E4C8D /* Question.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Question.swift; sourceTree = "<group>"; };
-		AA00000000000002A0000001 /* ch01a.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = ch01a.json; sourceTree = "<group>"; };
-		AA00000000000002A0000002 /* ch01b.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = ch01b.json; sourceTree = "<group>"; };
-		AA00000000000002A0000003 /* ch01c.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = ch01c.json; sourceTree = "<group>"; };
-		AA00000000000002A0000004 /* ch02a.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = ch02a.json; sourceTree = "<group>"; };
 		17C5F434FC17AE3D9559E9FA /* ProgressRing.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProgressRing.swift; sourceTree = "<group>"; };
 		240532B197E20A0CC1EC17E3 /* QuizSessionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuizSessionView.swift; sourceTree = "<group>"; };
 		3926CF4C071D2AD33A992597 /* CroatianSpellChecker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CroatianSpellChecker.swift; sourceTree = "<group>"; };
@@ -78,9 +74,13 @@
 		94458119CC057AE3335113D7 /* ConjugationDrillView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConjugationDrillView.swift; sourceTree = "<group>"; };
 		9DB006FFAF20CEE27EA21192 /* ch06.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = ch06.json; sourceTree = "<group>"; };
 		A0C77248C0A865C5ABA14E22 /* ch05.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = ch05.json; sourceTree = "<group>"; };
+		AA00000000000002A0000001 /* ch01a.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = ch01a.json; sourceTree = "<group>"; };
+		AA00000000000002A0000002 /* ch01b.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = ch01b.json; sourceTree = "<group>"; };
+		AA00000000000002A0000003 /* ch01c.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = ch01c.json; sourceTree = "<group>"; };
+		AA00000000000002A0000004 /* ch02a.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = ch02a.json; sourceTree = "<group>"; };
 		ABBC55212B19F3086AEB522D /* QuizResultView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuizResultView.swift; sourceTree = "<group>"; };
-		BB00000000000002A0000001 /* SentenceBuilderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SentenceBuilderView.swift; sourceTree = "<group>"; };
 		AC2DB333064CD146E4A6A7F3 /* Chapter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Chapter.swift; sourceTree = "<group>"; };
+		BB00000000000002A0000001 /* SentenceBuilderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SentenceBuilderView.swift; sourceTree = "<group>"; };
 		C6F1FE724D079C3DAA8353EA /* ChapterListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChapterListView.swift; sourceTree = "<group>"; };
 		D52ED688C08839217BBCE36B /* ch03.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = ch03.json; sourceTree = "<group>"; };
 		DC462370619A10B7B3B011C1 /* FillInBlankView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FillInBlankView.swift; sourceTree = "<group>"; };
@@ -269,7 +269,7 @@
 			isa = PBXProject;
 			attributes = {
 				BuildIndependentTargetsInParallel = YES;
-				LastUpgradeCheck = 1500;
+				LastUpgradeCheck = 2630;
 			};
 			buildConfigurationList = 8362A46C14FF7BFF8E48D1ED /* Build configuration list for PBXProject "CroatianLearningHelper" */;
 			developmentRegion = en;
@@ -384,9 +384,10 @@
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
-				DEVELOPMENT_TEAM = "";
+				DEVELOPMENT_TEAM = 4FG84V3G86;
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu11;
 				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
@@ -400,6 +401,7 @@
 				MTL_FAST_MATH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = iphoneos;
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
 				SWIFT_COMPILATION_MODE = wholemodule;
 				SWIFT_OPTIMIZATION_LEVEL = "-O";
 				SWIFT_VERSION = 5.9;
@@ -441,9 +443,10 @@
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = dwarf;
-				DEVELOPMENT_TEAM = "";
+				DEVELOPMENT_TEAM = 4FG84V3G86;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu11;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_NO_COMMON_BLOCKS = YES;
@@ -464,6 +467,7 @@
 				ONLY_ACTIVE_ARCH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = iphoneos;
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.9;
@@ -476,7 +480,6 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = 4FG84V3G86;
 				INFOPLIST_FILE = CroatianLearningHelper/App/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -495,7 +498,6 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = 4FG84V3G86;
 				INFOPLIST_FILE = CroatianLearningHelper/App/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",

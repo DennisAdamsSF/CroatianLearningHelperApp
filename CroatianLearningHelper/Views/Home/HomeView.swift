@@ -116,7 +116,7 @@ struct HomeView: View {
                                             Text(session.chapterID)
                                                 .font(.body)
                                         }
-                                        Text(session.date, style: .relative)
+                                        Text(session.date, format: .dateTime.month(.abbreviated).day().hour().minute())
                                             .font(.caption)
                                             .foregroundStyle(.secondary)
                                     }

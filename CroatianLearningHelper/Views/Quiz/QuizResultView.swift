@@ -54,7 +54,7 @@ struct QuizResultView: View {
 
                 // Stats
                 HStack(spacing: 24) {
-                    statItem(value: "\(engine.sessionDuration)s", label: "Time")
+                    statItem(value: "\(engine.finalDurationSeconds)s", label: "Time")
                     statItem(value: "\(engine.questions.count)", label: "Questions")
                     statItem(value: "\(engine.correctCount)", label: "Correct")
                 }
