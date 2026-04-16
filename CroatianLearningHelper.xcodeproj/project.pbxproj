@@ -33,6 +33,7 @@
 		B522982368CF1EDABEAE5FAF /* QuestionSelector.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CC2D1D39426F84A8E93AECA /* QuestionSelector.swift */; };
 		B89AEF2E177A26AC4DD1A4F0 /* Chapter.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC2DB333064CD146E4A6A7F3 /* Chapter.swift */; };
 		BF7A9D266DEAA4B2A9CC05E1 /* AnswerChecker.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA0FD729989A7AEFED35C3FB /* AnswerChecker.swift */; };
+		BB00000000000001A0000001 /* SentenceBuilderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB00000000000002A0000001 /* SentenceBuilderView.swift */; };
 		C365DBD6F90C9A106E863961 /* SpellCheckTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12543D76BBB6AC1A7FD9DCFE /* SpellCheckTextField.swift */; };
 		CA4FA797612384456F93A241 /* ChapterListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6F1FE724D079C3DAA8353EA /* ChapterListView.swift */; };
 		D25584FA3997270E5707E635 /* TranslationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B2DCF4DC5AA9764881451E7 /* TranslationView.swift */; };
@@ -78,6 +79,7 @@
 		9DB006FFAF20CEE27EA21192 /* ch06.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = ch06.json; sourceTree = "<group>"; };
 		A0C77248C0A865C5ABA14E22 /* ch05.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = ch05.json; sourceTree = "<group>"; };
 		ABBC55212B19F3086AEB522D /* QuizResultView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuizResultView.swift; sourceTree = "<group>"; };
+		BB00000000000002A0000001 /* SentenceBuilderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SentenceBuilderView.swift; sourceTree = "<group>"; };
 		AC2DB333064CD146E4A6A7F3 /* Chapter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Chapter.swift; sourceTree = "<group>"; };
 		C6F1FE724D079C3DAA8353EA /* ChapterListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChapterListView.swift; sourceTree = "<group>"; };
 		D52ED688C08839217BBCE36B /* ch03.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = ch03.json; sourceTree = "<group>"; };
@@ -114,6 +116,7 @@
 				E54DF11FA56BCABD883FB5F1 /* MultipleChoiceView.swift */,
 				ABBC55212B19F3086AEB522D /* QuizResultView.swift */,
 				240532B197E20A0CC1EC17E3 /* QuizSessionView.swift */,
+				BB00000000000002A0000001 /* SentenceBuilderView.swift */,
 				3B2DCF4DC5AA9764881451E7 /* TranslationView.swift */,
 			);
 			path = Quiz;
@@ -337,6 +340,7 @@
 				D6FEA0A66B752613C9A9D178 /* QuizResultView.swift in Sources */,
 				98587FC0E25B6231081DD24F /* QuizSessionRecord.swift in Sources */,
 				048EA9070630A62A3102651E /* QuizSessionView.swift in Sources */,
+				BB00000000000001A0000001 /* SentenceBuilderView.swift in Sources */,
 				C365DBD6F90C9A106E863961 /* SpellCheckTextField.swift in Sources */,
 				D25584FA3997270E5707E635 /* TranslationView.swift in Sources */,
 			);

@@ -121,7 +121,7 @@
       "chapterID": "ch02a",
       "type": "fillInBlank",
       "level": "a1",
-      "prompt": "Mobitel je ___. (The phone is mine. — ja, masculine noun)",
+      "prompt": "Mobitel je ___. (The phone (m.) is mine. — ja)",
       "correctAnswer": "moj",
       "acceptableAnswers": [
         "Moj"
@@ -138,7 +138,7 @@
       "chapterID": "ch02a",
       "type": "fillInBlank",
       "level": "a1",
-      "prompt": "Torba je ___. (The bag is ours. — mi, feminine noun)",
+      "prompt": "Torba je ___. (The bag (f.) is ours. — mi)",
       "correctAnswer": "naša",
       "acceptableAnswers": [
         "Naša",
@@ -157,7 +157,7 @@
       "chapterID": "ch02a",
       "type": "fillInBlank",
       "level": "a1",
-      "prompt": "Beba je ___. (The baby is his. — on, feminine noun)",
+      "prompt": "Beba je ___. (The baby (f.) is his. — on)",
       "correctAnswer": "njegova",
       "acceptableAnswers": [
         "Njegova"
@@ -174,7 +174,7 @@
       "chapterID": "ch02a",
       "type": "fillInBlank",
       "level": "a1",
-      "prompt": "Kuća je ___. (The house is theirs. — oni, feminine noun)",
+      "prompt": "Kuća je ___. (The house (f.) is theirs. — oni)",
       "correctAnswer": "njihova",
       "acceptableAnswers": [
         "Njihova"
@@ -191,7 +191,7 @@
       "chapterID": "ch02a",
       "type": "fillInBlank",
       "level": "a1",
-      "prompt": "Pivo je ___. (The beer is yours. — Vi, neuter noun)",
+      "prompt": "Pivo je ___. (The beer (n.) is yours. — Vi)",
       "correctAnswer": "vaše",
       "acceptableAnswers": [
         "Vaše",
@@ -210,7 +210,7 @@
       "chapterID": "ch02a",
       "type": "fillInBlank",
       "level": "a1",
-      "prompt": "Jabuka je ___. (The apple is hers. — ona, feminine noun)",
+      "prompt": "Jabuka je ___. (The apple (f.) is hers. — ona)",
       "correctAnswer": "njezina",
       "acceptableAnswers": [
         "Njezina",
@@ -229,7 +229,7 @@
       "chapterID": "ch02a",
       "type": "fillInBlank",
       "level": "a1",
-      "prompt": "Pecivo je ___. (The pastry is mine. — ja, neuter noun)",
+      "prompt": "Pecivo je ___. (The pastry (n.) is mine. — ja)",
       "correctAnswer": "moje",
       "acceptableAnswers": [
         "Moje"
@@ -246,7 +246,7 @@
       "chapterID": "ch02a",
       "type": "fillInBlank",
       "level": "a1",
-      "prompt": "___ je cipela? (Whose shoe is it? — feminine noun)",
+      "prompt": "___ je cipela? (Whose shoe (f.) is it?)",
       "correctAnswer": "Čija",
       "acceptableAnswers": [
         "čija",
@@ -265,7 +265,7 @@
       "chapterID": "ch02a",
       "type": "fillInBlank",
       "level": "a1",
-      "prompt": "___ je računalo? (Whose computer is it? — neuter noun)",
+      "prompt": "___ je računalo? (Whose computer (n.) is it?)",
       "correctAnswer": "Čije",
       "acceptableAnswers": [
         "čije",
@@ -357,7 +357,7 @@
       "chapterID": "ch02a",
       "type": "translationToCroatian",
       "level": "a1",
-      "prompt": "The bag is mine. (feminine noun)",
+      "prompt": "The bag (f.) is mine.",
       "correctAnswer": "Torba je moja.",
       "acceptableAnswers": [
         "Torba je moja"
@@ -375,7 +375,7 @@
       "chapterID": "ch02a",
       "type": "translationToCroatian",
       "level": "a1",
-      "prompt": "Whose house is it? (feminine noun)",
+      "prompt": "Whose house (f.) is it?",
       "correctAnswer": "Čija je kuća?",
       "acceptableAnswers": [
         "Čija je kuća"
@@ -393,7 +393,7 @@
       "chapterID": "ch02a",
       "type": "translationToCroatian",
       "level": "a1",
-      "prompt": "The beer is yours. (neuter noun, formal Vi)",
+      "prompt": "The beer (n.) is yours. (formal Vi)",
       "correctAnswer": "Pivo je vaše.",
       "acceptableAnswers": [
         "Pivo je vaše",
@@ -412,7 +412,7 @@
       "chapterID": "ch02a",
       "type": "translationToCroatian",
       "level": "a1",
-      "prompt": "The computer is his. (neuter noun)",
+      "prompt": "The computer (n.) is his.",
       "correctAnswer": "Računalo je njegovo.",
       "acceptableAnswers": [
         "Računalo je njegovo",
@@ -431,7 +431,7 @@
       "chapterID": "ch02a",
       "type": "translationToCroatian",
       "level": "a1",
-      "prompt": "The car is ours. (masculine noun)",
+      "prompt": "The car (m.) is ours.",
       "correctAnswer": "Automobil je naš.",
       "acceptableAnswers": [
         "Automobil je naš",
@@ -545,7 +545,7 @@
       "chapterID": "ch02a",
       "type": "fillInBlank",
       "level": "a1",
-      "prompt": "Torbe su ___. (The bags are theirs. — one, feminine plural)",
+      "prompt": "Torbe su ___. (The bags (f. pl.) are theirs. — one)",
       "correctAnswer": "njihove",
       "acceptableAnswers": [
         "Njihove"
@@ -562,7 +562,7 @@
       "chapterID": "ch02a",
       "type": "fillInBlank",
       "level": "a1",
-      "prompt": "Bebe su ___. (The babies are hers. — ona, feminine plural)",
+      "prompt": "Bebe su ___. (The babies (f. pl.) are hers. — ona)",
       "correctAnswer": "njezine",
       "acceptableAnswers": [
         "Njezine",
@@ -581,7 +581,7 @@
       "chapterID": "ch02a",
       "type": "fillInBlank",
       "level": "a1",
-      "prompt": "Kuće su ___. (The houses are yours. — Vi, feminine plural)",
+      "prompt": "Kuće su ___. (The houses (f. pl.) are yours. — Vi)",
       "correctAnswer": "vaše",
       "acceptableAnswers": [
         "Vaše",
@@ -600,7 +600,7 @@
       "chapterID": "ch02a",
       "type": "fillInBlank",
       "level": "a1",
-      "prompt": "Piva su ___. (The beers are yours. — vi, neuter plural)",
+      "prompt": "Piva su ___. (The beers (n. pl.) are yours. — vi)",
       "correctAnswer": "vaša",
       "acceptableAnswers": [
         "Vaša",
@@ -619,7 +619,7 @@
       "chapterID": "ch02a",
       "type": "fillInBlank",
       "level": "a1",
-      "prompt": "Jabuke su ___. (The apples are his. — on, feminine plural)",
+      "prompt": "Jabuke su ___. (The apples (f. pl.) are his. — on)",
       "correctAnswer": "njegove",
       "acceptableAnswers": [
         "Njegove"
@@ -636,7 +636,7 @@
       "chapterID": "ch02a",
       "type": "fillInBlank",
       "level": "a1",
-      "prompt": "Kave su ___. (The coffees are ours. — mi, feminine plural)",
+      "prompt": "Kave su ___. (The coffees (f. pl.) are ours. — mi)",
       "correctAnswer": "naše",
       "acceptableAnswers": [
         "Naše",
@@ -655,7 +655,7 @@
       "chapterID": "ch02a",
       "type": "fillInBlank",
       "level": "a1",
-      "prompt": "Cipele su ___. (The shoes are hers. — ona, feminine plural)",
+      "prompt": "Cipele su ___. (The shoes (f. pl.) are hers. — ona)",
       "correctAnswer": "njezine",
       "acceptableAnswers": [
         "Njezine",
@@ -674,7 +674,7 @@
       "chapterID": "ch02a",
       "type": "fillInBlank",
       "level": "a1",
-      "prompt": "Automobili su ___. (The cars are ours. — mi, masculine plural)",
+      "prompt": "Automobili su ___. (The cars (m. pl.) are ours. — mi)",
       "correctAnswer": "naši",
       "acceptableAnswers": [
         "Naši",
@@ -693,7 +693,7 @@
       "chapterID": "ch02a",
       "type": "fillInBlank",
       "level": "a1",
-      "prompt": "Peciva su ___. (The pastries are mine. — ja, neuter plural)",
+      "prompt": "Peciva su ___. (The pastries (n. pl.) are mine. — ja)",
       "correctAnswer": "moja",
       "acceptableAnswers": [
         "Moja"
@@ -710,7 +710,7 @@
       "chapterID": "ch02a",
       "type": "fillInBlank",
       "level": "a1",
-      "prompt": "___ su mobiteli? (Whose phones are they? — masculine plural)",
+      "prompt": "___ su mobiteli? (Whose phones (m. pl.) are they?)",
       "correctAnswer": "Čiji",
       "acceptableAnswers": [
         "čiji",
@@ -799,7 +799,7 @@
       "chapterID": "ch02a",
       "type": "translationToCroatian",
       "level": "a1",
-      "prompt": "The books are mine. (feminine plural)",
+      "prompt": "The books (f. pl.) are mine.",
       "correctAnswer": "Knjige su moje.",
       "acceptableAnswers": [
         "Knjige su moje"
@@ -817,7 +817,7 @@
       "chapterID": "ch02a",
       "type": "translationToCroatian",
       "level": "a1",
-      "prompt": "The cars are ours. (masculine plural)",
+      "prompt": "The cars (m. pl.) are ours.",
       "correctAnswer": "Automobili su naši.",
       "acceptableAnswers": [
         "Automobili su naši",
@@ -836,7 +836,7 @@
       "chapterID": "ch02a",
       "type": "translationToCroatian",
       "level": "a1",
-      "prompt": "Whose beers are they? (neuter plural)",
+      "prompt": "Whose beers (n. pl.) are they?",
       "correctAnswer": "Čija su piva?",
       "acceptableAnswers": [
         "Čija su piva"
@@ -854,7 +854,7 @@
       "chapterID": "ch02a",
       "type": "translationToCroatian",
       "level": "a1",
-      "prompt": "The shoes are hers. (feminine plural)",
+      "prompt": "The shoes (f. pl.) are hers.",
       "correctAnswer": "Cipele su njezine.",
       "acceptableAnswers": [
         "Cipele su njezine",
@@ -873,7 +873,7 @@
       "chapterID": "ch02a",
       "type": "translationToCroatian",
       "level": "a1",
-      "prompt": "The phones are theirs. (masculine plural)",
+      "prompt": "The phones (m. pl.) are theirs.",
       "correctAnswer": "Mobiteli su njihovi.",
       "acceptableAnswers": [
         "Mobiteli su njihovi"
@@ -885,6 +885,477 @@
         "possessives",
         "everyday objects"
       ]
+    },
+
+    {
+      "id": "ch02a_sb_001",
+      "chapterID": "ch02a",
+      "type": "sentenceBuilder",
+      "level": "a1",
+      "prompt": "Build a possessive sentence with: knjiga + ti",
+      "contextSentence": "The book is yours.",
+      "correctAnswer": "Knjiga je tvoja.",
+      "acceptableAnswers": ["Knjiga je tvoja"],
+      "hint": "Knjiga is feminine — use the feminine form of the possessive.",
+      "explanation": "Knjiga (f.) + ti → tvoja (f. possessive). Singular nouns use 'je'. Full sentence: Knjiga je tvoja.",
+      "grammarTopic": "possessive pronouns",
+      "vocabTags": ["possessives", "everyday objects"]
+    },
+    {
+      "id": "ch02a_sb_002",
+      "chapterID": "ch02a",
+      "type": "sentenceBuilder",
+      "level": "a1",
+      "prompt": "Build a possessive sentence with: torba + mi",
+      "contextSentence": "The bag is ours.",
+      "correctAnswer": "Torba je naša.",
+      "acceptableAnswers": ["Torba je naša", "Torba je nasa."],
+      "hint": "Torba is feminine — use the feminine form of the possessive.",
+      "explanation": "Torba (f.) + mi → naša (f. possessive). Naš = masculine, naše = neuter.",
+      "grammarTopic": "possessive pronouns",
+      "vocabTags": ["possessives", "everyday objects"]
+    },
+    {
+      "id": "ch02a_sb_003",
+      "chapterID": "ch02a",
+      "type": "sentenceBuilder",
+      "level": "a1",
+      "prompt": "Build a possessive sentence with: beba + on",
+      "contextSentence": "The baby is his.",
+      "correctAnswer": "Beba je njegova.",
+      "acceptableAnswers": ["Beba je njegova"],
+      "hint": "Beba is feminine — use the feminine form of the possessive.",
+      "explanation": "Beba (f.) + on → njegova (f. possessive). Njegov = masculine, njegovo = neuter.",
+      "grammarTopic": "possessive pronouns",
+      "vocabTags": ["possessives", "everyday objects"]
+    },
+    {
+      "id": "ch02a_sb_004",
+      "chapterID": "ch02a",
+      "type": "sentenceBuilder",
+      "level": "a1",
+      "prompt": "Build a possessive sentence with: kuća + oni",
+      "contextSentence": "The house is theirs.",
+      "correctAnswer": "Kuća je njihova.",
+      "acceptableAnswers": ["Kuća je njihova", "Kuca je njihova."],
+      "hint": "Kuća is feminine — use the feminine form of the possessive.",
+      "explanation": "Kuća (f.) + oni → njihova (f. possessive). Njihov = masculine, njihovo = neuter.",
+      "grammarTopic": "possessive pronouns",
+      "vocabTags": ["possessives", "everyday objects"]
+    },
+    {
+      "id": "ch02a_sb_005",
+      "chapterID": "ch02a",
+      "type": "sentenceBuilder",
+      "level": "a1",
+      "prompt": "Build a possessive sentence with: pivo + Vi",
+      "contextSentence": "The beer is yours. (formal)",
+      "correctAnswer": "Pivo je vaše.",
+      "acceptableAnswers": ["Pivo je vaše", "Pivo je vase."],
+      "hint": "Pivo is neuter — use the neuter form of the possessive. Vi = formal 'you'.",
+      "explanation": "Pivo (n.) + Vi → vaše (n. possessive). Vaš = masculine, vaša = feminine.",
+      "grammarTopic": "possessive pronouns",
+      "vocabTags": ["possessives", "everyday objects"]
+    },
+    {
+      "id": "ch02a_sb_006",
+      "chapterID": "ch02a",
+      "type": "sentenceBuilder",
+      "level": "a1",
+      "prompt": "Build a possessive sentence with: jabuka + ona",
+      "contextSentence": "The apple is hers.",
+      "correctAnswer": "Jabuka je njezina.",
+      "acceptableAnswers": ["Jabuka je njezina", "Jabuka je njena.", "Jabuka je njena"],
+      "hint": "Jabuka is feminine — use the feminine form of the possessive.",
+      "explanation": "Jabuka (f.) + ona → njezina (f. possessive). Njezin = masculine, njezino = neuter. Njena is also accepted.",
+      "grammarTopic": "possessive pronouns",
+      "vocabTags": ["possessives", "everyday objects"]
+    },
+    {
+      "id": "ch02a_sb_007",
+      "chapterID": "ch02a",
+      "type": "sentenceBuilder",
+      "level": "a1",
+      "prompt": "Build a possessive sentence with: računalo + vi",
+      "contextSentence": "The computer is yours. (plural)",
+      "correctAnswer": "Računalo je vaše.",
+      "acceptableAnswers": ["Računalo je vaše", "Racunalo je vase.", "Računalo je vase."],
+      "hint": "Računalo is neuter — use the neuter form of the possessive.",
+      "explanation": "Računalo (n.) + vi → vaše (n. possessive). Vaš = masculine, vaša = feminine.",
+      "grammarTopic": "possessive pronouns",
+      "vocabTags": ["possessives", "everyday objects"]
+    },
+    {
+      "id": "ch02a_sb_008",
+      "chapterID": "ch02a",
+      "type": "sentenceBuilder",
+      "level": "a1",
+      "prompt": "Build a possessive sentence with: kava + one",
+      "contextSentence": "The coffee is theirs. (feminine 'they')",
+      "correctAnswer": "Kava je njihova.",
+      "acceptableAnswers": ["Kava je njihova"],
+      "hint": "Kava is feminine — use the feminine form of the possessive. 'One' (they, f.) uses njihov-.",
+      "explanation": "Kava (f.) + one → njihova (f. possessive). One/oni/ona all use the njihov- forms.",
+      "grammarTopic": "possessive pronouns",
+      "vocabTags": ["possessives", "everyday objects"]
+    },
+    {
+      "id": "ch02a_sb_009",
+      "chapterID": "ch02a",
+      "type": "sentenceBuilder",
+      "level": "a1",
+      "prompt": "Build a possessive sentence with: cipela + ona",
+      "contextSentence": "The shoe is hers.",
+      "correctAnswer": "Cipela je njezina.",
+      "acceptableAnswers": ["Cipela je njezina", "Cipela je njena.", "Cipela je njena"],
+      "hint": "Cipela is feminine — use the feminine form of the possessive.",
+      "explanation": "Cipela (f.) + ona → njezina (f. possessive). Njezin = masculine, njezino = neuter.",
+      "grammarTopic": "possessive pronouns",
+      "vocabTags": ["possessives", "everyday objects"]
+    },
+    {
+      "id": "ch02a_sb_010",
+      "chapterID": "ch02a",
+      "type": "sentenceBuilder",
+      "level": "a1",
+      "prompt": "Build a possessive sentence with: automobil + ti",
+      "contextSentence": "The car is yours.",
+      "correctAnswer": "Automobil je tvoj.",
+      "acceptableAnswers": ["Automobil je tvoj"],
+      "hint": "Automobil is masculine — use the masculine form of the possessive.",
+      "explanation": "Automobil (m.) + ti → tvoj (m. possessive). Tvoja = feminine, tvoje = neuter.",
+      "grammarTopic": "possessive pronouns",
+      "vocabTags": ["possessives", "everyday objects"]
+    },
+    {
+      "id": "ch02a_sb_011",
+      "chapterID": "ch02a",
+      "type": "sentenceBuilder",
+      "level": "a1",
+      "prompt": "Build a possessive sentence with: pecivo + ja",
+      "contextSentence": "The pastry is mine.",
+      "correctAnswer": "Pecivo je moje.",
+      "acceptableAnswers": ["Pecivo je moje"],
+      "hint": "Pecivo is neuter — use the neuter form of the possessive.",
+      "explanation": "Pecivo (n.) + ja → moje (n. possessive). Moj = masculine, moja = feminine.",
+      "grammarTopic": "possessive pronouns",
+      "vocabTags": ["possessives", "everyday objects"]
+    },
+    {
+      "id": "ch02a_sb_012",
+      "chapterID": "ch02a",
+      "type": "sentenceBuilder",
+      "level": "a1",
+      "prompt": "Build a possessive sentence with: mobitel + on",
+      "contextSentence": "The phone is his.",
+      "correctAnswer": "Mobitel je njegov.",
+      "acceptableAnswers": ["Mobitel je njegov"],
+      "hint": "Mobitel is masculine — use the masculine form of the possessive.",
+      "explanation": "Mobitel (m.) + on → njegov (m. possessive). Njegova = feminine, njegovo = neuter.",
+      "grammarTopic": "possessive pronouns",
+      "vocabTags": ["possessives", "everyday objects"]
+    },
+
+    {
+      "id": "ch02a_sb_013",
+      "chapterID": "ch02a",
+      "type": "sentenceBuilder",
+      "level": "a1",
+      "prompt": "Build a possessive sentence with: knjige + ja",
+      "contextSentence": "The books are mine.",
+      "correctAnswer": "Knjige su moje.",
+      "acceptableAnswers": ["Knjige su moje"],
+      "hint": "Knjige is feminine plural — use 'su' (not 'je') and the feminine plural possessive.",
+      "explanation": "Knjige (f. pl.) + ja → moje (f. pl. possessive). Plural nouns use 'su'. Moji = m. pl., moja = n. pl.",
+      "grammarTopic": "possessive pronouns",
+      "vocabTags": ["possessives", "everyday objects"]
+    },
+    {
+      "id": "ch02a_sb_014",
+      "chapterID": "ch02a",
+      "type": "sentenceBuilder",
+      "level": "a1",
+      "prompt": "Build a possessive sentence with: torbe + one",
+      "contextSentence": "The bags are theirs. (feminine 'they')",
+      "correctAnswer": "Torbe su njihove.",
+      "acceptableAnswers": ["Torbe su njihove"],
+      "hint": "Torbe is feminine plural — use 'su' and the feminine plural possessive.",
+      "explanation": "Torbe (f. pl.) + one → njihove (f. pl. possessive). Njihovi = m. pl., njihova = n. pl.",
+      "grammarTopic": "possessive pronouns",
+      "vocabTags": ["possessives", "everyday objects"]
+    },
+    {
+      "id": "ch02a_sb_015",
+      "chapterID": "ch02a",
+      "type": "sentenceBuilder",
+      "level": "a1",
+      "prompt": "Build a possessive sentence with: bebe + ona",
+      "contextSentence": "The babies are hers.",
+      "correctAnswer": "Bebe su njezine.",
+      "acceptableAnswers": ["Bebe su njezine", "Bebe su njene.", "Bebe su njene"],
+      "hint": "Bebe is feminine plural — use 'su' and the feminine plural possessive.",
+      "explanation": "Bebe (f. pl.) + ona → njezine (f. pl. possessive). Njezini = m. pl., njezina = n. pl.",
+      "grammarTopic": "possessive pronouns",
+      "vocabTags": ["possessives", "everyday objects"]
+    },
+    {
+      "id": "ch02a_sb_016",
+      "chapterID": "ch02a",
+      "type": "sentenceBuilder",
+      "level": "a1",
+      "prompt": "Build a possessive sentence with: kuće + Vi",
+      "contextSentence": "The houses are yours. (formal)",
+      "correctAnswer": "Kuće su vaše.",
+      "acceptableAnswers": ["Kuće su vaše", "Kuce su vase."],
+      "hint": "Kuće is feminine plural — use 'su' and the feminine plural possessive.",
+      "explanation": "Kuće (f. pl.) + Vi → vaše (f. pl. possessive). Vaši = m. pl., vaša = n. pl.",
+      "grammarTopic": "possessive pronouns",
+      "vocabTags": ["possessives", "everyday objects"]
+    },
+    {
+      "id": "ch02a_sb_017",
+      "chapterID": "ch02a",
+      "type": "sentenceBuilder",
+      "level": "a1",
+      "prompt": "Build a possessive sentence with: piva + vi",
+      "contextSentence": "The beers are yours. (plural)",
+      "correctAnswer": "Piva su vaša.",
+      "acceptableAnswers": ["Piva su vaša", "Piva su vasa."],
+      "hint": "Piva is neuter plural — use 'su' and the neuter plural possessive.",
+      "explanation": "Piva (n. pl.) + vi → vaša (n. pl. possessive). Note: neuter plural possessive looks like feminine singular! Vaši = m. pl., vaše = f. pl.",
+      "grammarTopic": "possessive pronouns",
+      "vocabTags": ["possessives", "everyday objects"]
+    },
+    {
+      "id": "ch02a_sb_018",
+      "chapterID": "ch02a",
+      "type": "sentenceBuilder",
+      "level": "a1",
+      "prompt": "Build a possessive sentence with: jabuke + on",
+      "contextSentence": "The apples are his.",
+      "correctAnswer": "Jabuke su njegove.",
+      "acceptableAnswers": ["Jabuke su njegove"],
+      "hint": "Jabuke is feminine plural — use 'su' and the feminine plural possessive.",
+      "explanation": "Jabuke (f. pl.) + on → njegove (f. pl. possessive). Njegovi = m. pl., njegova = n. pl.",
+      "grammarTopic": "possessive pronouns",
+      "vocabTags": ["possessives", "everyday objects"]
+    },
+    {
+      "id": "ch02a_sb_019",
+      "chapterID": "ch02a",
+      "type": "sentenceBuilder",
+      "level": "a1",
+      "prompt": "Build a possessive sentence with: računala + oni",
+      "contextSentence": "The computers are theirs.",
+      "correctAnswer": "Računala su njihova.",
+      "acceptableAnswers": ["Računala su njihova", "Racunala su njihova."],
+      "hint": "Računala is neuter plural — use 'su' and the neuter plural possessive.",
+      "explanation": "Računala (n. pl.) + oni → njihova (n. pl. possessive). Njihovi = m. pl., njihove = f. pl.",
+      "grammarTopic": "possessive pronouns",
+      "vocabTags": ["possessives", "everyday objects"]
+    },
+    {
+      "id": "ch02a_sb_020",
+      "chapterID": "ch02a",
+      "type": "sentenceBuilder",
+      "level": "a1",
+      "prompt": "Build a possessive sentence with: kave + mi",
+      "contextSentence": "The coffees are ours.",
+      "correctAnswer": "Kave su naše.",
+      "acceptableAnswers": ["Kave su naše", "Kave su nase."],
+      "hint": "Kave is feminine plural — use 'su' and the feminine plural possessive.",
+      "explanation": "Kave (f. pl.) + mi → naše (f. pl. possessive). Naši = m. pl., naša = n. pl.",
+      "grammarTopic": "possessive pronouns",
+      "vocabTags": ["possessives", "everyday objects"]
+    },
+    {
+      "id": "ch02a_sb_021",
+      "chapterID": "ch02a",
+      "type": "sentenceBuilder",
+      "level": "a1",
+      "prompt": "Build a possessive sentence with: cipele + ona",
+      "contextSentence": "The shoes are hers.",
+      "correctAnswer": "Cipele su njezine.",
+      "acceptableAnswers": ["Cipele su njezine", "Cipele su njene.", "Cipele su njene"],
+      "hint": "Cipele is feminine plural — use 'su' and the feminine plural possessive.",
+      "explanation": "Cipele (f. pl.) + ona → njezine (f. pl. possessive). Njezini = m. pl., njezina = n. pl.",
+      "grammarTopic": "possessive pronouns",
+      "vocabTags": ["possessives", "everyday objects"]
+    },
+    {
+      "id": "ch02a_sb_022",
+      "chapterID": "ch02a",
+      "type": "sentenceBuilder",
+      "level": "a1",
+      "prompt": "Build a possessive sentence with: automobili + mi",
+      "contextSentence": "The cars are ours.",
+      "correctAnswer": "Automobili su naši.",
+      "acceptableAnswers": ["Automobili su naši", "Automobili su nasi."],
+      "hint": "Automobili is masculine plural — use 'su' and the masculine plural possessive.",
+      "explanation": "Automobili (m. pl.) + mi → naši (m. pl. possessive). Naše = f. pl., naša = n. pl.",
+      "grammarTopic": "possessive pronouns",
+      "vocabTags": ["possessives", "everyday objects"]
+    },
+    {
+      "id": "ch02a_sb_023",
+      "chapterID": "ch02a",
+      "type": "sentenceBuilder",
+      "level": "a1",
+      "prompt": "Build a possessive sentence with: peciva + ja",
+      "contextSentence": "The pastries are mine.",
+      "correctAnswer": "Peciva su moja.",
+      "acceptableAnswers": ["Peciva su moja"],
+      "hint": "Peciva is neuter plural — use 'su' and the neuter plural possessive.",
+      "explanation": "Peciva (n. pl.) + ja → moja (n. pl. possessive). Note: neuter plural 'my' = moja, same as feminine singular! Moji = m. pl., moje = f. pl.",
+      "grammarTopic": "possessive pronouns",
+      "vocabTags": ["possessives", "everyday objects"]
+    },
+    {
+      "id": "ch02a_sb_024",
+      "chapterID": "ch02a",
+      "type": "sentenceBuilder",
+      "level": "a1",
+      "prompt": "Build a possessive sentence with: mobiteli + oni",
+      "contextSentence": "The phones are theirs.",
+      "correctAnswer": "Mobiteli su njihovi.",
+      "acceptableAnswers": ["Mobiteli su njihovi"],
+      "hint": "Mobiteli is masculine plural — use 'su' and the masculine plural possessive.",
+      "explanation": "Mobiteli (m. pl.) + oni → njihovi (m. pl. possessive). Njihove = f. pl., njihova = n. pl.",
+      "grammarTopic": "possessive pronouns",
+      "vocabTags": ["possessives", "everyday objects"]
+    },
+
+    {
+      "id": "ch02a_fb_020",
+      "chapterID": "ch02a",
+      "type": "fillInBlank",
+      "level": "a1",
+      "prompt": "___ je stablo? Stablo je naše.",
+      "contextSentence": "Whose is the tree? The tree is ours.",
+      "correctAnswer": "Čije",
+      "acceptableAnswers": ["čije", "Cije", "cije"],
+      "explanation": "Stablo is neuter singular, so the question word must agree: Čije. Čiji = masculine, Čija = feminine.",
+      "grammarTopic": "possessive pronouns",
+      "vocabTags": ["possessives"]
+    },
+    {
+      "id": "ch02a_fb_021",
+      "chapterID": "ch02a",
+      "type": "fillInBlank",
+      "level": "a1",
+      "prompt": "___ su bilježnice? Bilježnice su njegove.",
+      "contextSentence": "Whose are the notebooks? The notebooks are his.",
+      "correctAnswer": "Čije",
+      "acceptableAnswers": ["čije", "Cije", "cije"],
+      "explanation": "Bilježnice is feminine plural, so the question word must agree: Čije. Čiji = masculine plural, Čija = neuter plural.",
+      "grammarTopic": "possessive pronouns",
+      "vocabTags": ["possessives"]
+    },
+    {
+      "id": "ch02a_fb_022",
+      "chapterID": "ch02a",
+      "type": "fillInBlank",
+      "level": "a1",
+      "prompt": "___ je prijateljica? Prijateljica je njezina.",
+      "contextSentence": "Whose is the friend (f.)? The friend is hers.",
+      "correctAnswer": "Čija",
+      "acceptableAnswers": ["čija", "Cija", "cija"],
+      "explanation": "Prijateljica is feminine singular, so the question word must agree: Čija. Čiji = masculine, Čije = neuter.",
+      "grammarTopic": "possessive pronouns",
+      "vocabTags": ["possessives"]
+    },
+    {
+      "id": "ch02a_fb_023",
+      "chapterID": "ch02a",
+      "type": "fillInBlank",
+      "level": "a1",
+      "prompt": "___ je student? Student je njihov.",
+      "contextSentence": "Whose is the student? The student is theirs.",
+      "correctAnswer": "Čiji",
+      "acceptableAnswers": ["čiji", "Ciji", "ciji"],
+      "explanation": "Student is masculine singular, so the question word must agree: Čiji. Čija = feminine, Čije = neuter.",
+      "grammarTopic": "possessive pronouns",
+      "vocabTags": ["possessives"]
+    },
+    {
+      "id": "ch02a_fb_024",
+      "chapterID": "ch02a",
+      "type": "fillInBlank",
+      "level": "a1",
+      "prompt": "___ je auto? Auto je moj.",
+      "contextSentence": "Whose is the car? The car is mine.",
+      "correctAnswer": "Čiji",
+      "acceptableAnswers": ["čiji", "Ciji", "ciji"],
+      "explanation": "Auto is masculine singular, so the question word must agree: Čiji. Čija = feminine, Čije = neuter.",
+      "grammarTopic": "possessive pronouns",
+      "vocabTags": ["possessives", "everyday objects"]
+    },
+    {
+      "id": "ch02a_fb_025",
+      "chapterID": "ch02a",
+      "type": "fillInBlank",
+      "level": "a1",
+      "prompt": "___ su hoteli? Hoteli su njezini.",
+      "contextSentence": "Whose are the hotels? The hotels are hers.",
+      "correctAnswer": "Čiji",
+      "acceptableAnswers": ["čiji", "Ciji", "ciji"],
+      "explanation": "Hoteli is masculine plural, so the question word must agree: Čiji. Note: masculine čiji is the same in singular and plural! Čije = f. pl., Čija = n. pl.",
+      "grammarTopic": "possessive pronouns",
+      "vocabTags": ["possessives"]
+    },
+    {
+      "id": "ch02a_fb_026",
+      "chapterID": "ch02a",
+      "type": "fillInBlank",
+      "level": "a1",
+      "prompt": "___ je obitelj? Obitelj je naša.",
+      "contextSentence": "Whose is the family? The family is ours.",
+      "correctAnswer": "Čija",
+      "acceptableAnswers": ["čija", "Cija", "cija"],
+      "explanation": "Obitelj is feminine singular, so the question word must agree: Čija. Čiji = masculine, Čije = neuter.",
+      "grammarTopic": "possessive pronouns",
+      "vocabTags": ["possessives", "family"]
+    },
+    {
+      "id": "ch02a_fb_027",
+      "chapterID": "ch02a",
+      "type": "fillInBlank",
+      "level": "a1",
+      "prompt": "___ je tata? Tata je njihov.",
+      "contextSentence": "Whose is the dad? The dad is theirs.",
+      "correctAnswer": "Čiji",
+      "acceptableAnswers": ["čiji", "Ciji", "ciji"],
+      "hint": "Careful! Tata ends in -a but is masculine (like 'papa').",
+      "explanation": "Tata is masculine despite ending in -a (it refers to a male person). So: Čiji je tata? Čija = feminine, Čije = neuter.",
+      "grammarTopic": "possessive pronouns",
+      "vocabTags": ["possessives", "family"]
+    },
+    {
+      "id": "ch02a_fb_028",
+      "chapterID": "ch02a",
+      "type": "fillInBlank",
+      "level": "a1",
+      "prompt": "___ su piva? Piva su naša.",
+      "contextSentence": "Whose are the beers? The beers are ours.",
+      "correctAnswer": "Čija",
+      "acceptableAnswers": ["čija", "Cija", "cija"],
+      "hint": "Piva is neuter plural — which form of 'whose' matches neuter plural?",
+      "explanation": "Piva is neuter plural, so the question word must agree: Čija. Note: Čija is both feminine singular AND neuter plural! Čiji = m. pl., Čije = f. pl.",
+      "grammarTopic": "possessive pronouns",
+      "vocabTags": ["possessives", "everyday objects"]
+    },
+    {
+      "id": "ch02a_fb_029",
+      "chapterID": "ch02a",
+      "type": "fillInBlank",
+      "level": "a1",
+      "prompt": "___ su kave? Kave su njihove.",
+      "contextSentence": "Whose are the coffees? The coffees are theirs.",
+      "correctAnswer": "Čije",
+      "acceptableAnswers": ["čije", "Cije", "cije"],
+      "explanation": "Kave is feminine plural, so the question word must agree: Čije. Čiji = masculine plural, Čija = neuter plural.",
+      "grammarTopic": "possessive pronouns",
+      "vocabTags": ["possessives", "everyday objects"]
     }
   ]
 }

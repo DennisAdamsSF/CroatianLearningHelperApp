@@ -55,6 +55,8 @@ struct QuizSessionView: View {
                             TranslationView(question: question, engine: engine)
                         case .conjugation, .declension:
                             ConjugationDrillView(question: question, engine: engine)
+                        case .sentenceBuilder:
+                            SentenceBuilderView(question: question, engine: engine)
                         }
                     }
                     .padding()
@@ -102,6 +104,7 @@ extension QuestionType {
         case .translationToCroatian: "Translate to Croatian"
         case .conjugation: "Conjugation"
         case .declension: "Declension"
+        case .sentenceBuilder: "Sentence Builder"
         }
     }
 }

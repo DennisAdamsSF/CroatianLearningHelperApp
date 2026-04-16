@@ -7,6 +7,7 @@ enum QuestionType: String, Codable, CaseIterable {
     case translationToCroatian
     case conjugation
     case declension
+    case sentenceBuilder
 }
 
 enum CEFRLevel: String, Codable {
